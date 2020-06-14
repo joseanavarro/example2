@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <!-- Enable all requests, inline styles, and eval() -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * walk2view:;child-src gap://ready; img-src * data: blob: cdvphotolibrary: file: https:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' 92.168.1.132:35729">
+
+    <title>Walk2view</title>
+
+    <!-- build:css dist_css/styles.css -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+
+    <link href="css/toaster.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/Leaflet.awesome-markers/dist/leaflet.awesome-markers.css">
+    <link rel="stylesheet" href="lib/leaflet/dist/leaflet.css">
+    <!-- endbuild -->
+    <script src="intent.js"></script>
+    <!-- build:js dist_js/lib.js -->
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/underscore/underscore-min.js"></script>
+    <script src="lib/angular-translate/angular-translate.min.js"></script>
+    <script src="lib/ng-cordova-oauth/dist/ng-cordova-oauth.min.js"></script>
+    <script src="lib/leaflet/dist/leaflet.js"></script>
+    <script src="lib/Leaflet.awesome-markers/dist/leaflet.awesome-markers.js"></script>
+    <script src="lib/angular-leaflet-directive/dist/angular-leaflet-directive.js"></script>
+    <script src="lib/angular-resource/angular-resource.js"></script>
+    <script src="lib/angular-local-storage/dist/angular-local-storage.js"></script>
+    <script src="lib/exif-js/exif.js"></script>
+    <script src="krpano/krpano.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
+    <!-- endbuild -->
+
+    <script src="cordova.js"></script>
+
+    <!-- build:js dist_js/app.js -->
+    <script src="dist/dist_js/app/app.js"></script>
+    <script src="dist/dist_js/app/lang.js"></script>
+    <script src="dist/dist_js/app/configuration.js"></script>
+    <script src="dist/dist_js/app/templates.js"></script>
+    <script src="dist/dist_js/app/controllers/app.js"></script>
+    <script src="dist/dist_js/app/controllers/StartCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/LoginCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/LogoutCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/RegisterCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/HomeCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/Home2Ctrl.js"></script>
+    <script src="dist/dist_js/app/controllers/RoutesCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/RouteCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/ConfigCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/SearchCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/NearCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/VisitCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/ListController.js"></script>
+    <script src="dist/dist_js/app/controllers/MapCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/VRCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/recentCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/AboutCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/PublishCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/ProfileCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/ReportsCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/ReportFinalCtrl.js"></script>
+    <script src="dist/dist_js/app/controllers/VRCameraCtrl.js"></script>
+
+    <script src="dist/dist_js/app/services/locationsService.js"></script>
+    <script src="dist/dist_js/app/services/instructionsService.js"></script>
+    <script src="dist/dist_js/app/services/dba.js"></script>
+    <script src="dist/dist_js/app/services/common.js"></script>
+    <script src="dist/dist_js/app/services/backendService.js"></script>
+    <script src="dist/dist_js/app/services/dataService.js"></script>
+    <script src="dist/dist_js/app/services/mapsService.js"></script>
+    <script src="dist/dist_js/app/services/camService.js"></script>
+    <script src="dist/dist_js/app/services/cameraApi.js"></script>
+
+    <script src="dist/dist_js/app/directives/igTruncate.js"></script>
+    <script src="dist/dist_js/app/directives/elastic.js"></script>
+
+    <script src="dist/dist_js/app/filters/filters.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body ng-app="AppModule" ng-strict-di>
+    <ion-nav-view></ion-nav-view>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<ion-view title="{{'publish_txt' | translate}}">
+  <ion-nav-bar class="bar-dark">
+			<ion-nav-buttons side="left">
+        <button class="button button-icon icon ion-close" ng-show="canCancel"  ng-click="cancelPublish()"></button>
+			</ion-nav-buttons>
+			<ion-nav-buttons side="right">
+			<button class="button icon ion-checkmark button-balanced" ng-show="step=='data'" ng-click="publish()"></button>
+			</ion-nav-buttons>
+	</ion-nav-bar>
+
+  <ion-content class="publish-pano">
+	  <div ng-show="step=='selectpano'" >
+	  			<ng-include src="'publish.selectpano.html'" >
+  				</ng-include>
+	  </div>
+		
+		<div ng-if="step=='data'" >
+	  			<ng-include src="'publish.data.html'" >
+  				</ng-include>
+	  </div>
+	  <div ng-show="step=='map'" >
+	  			<ng-include src="'publish.map.html'" >
+  				</ng-include>
+	  </div>
+		<div ng-show="step=='publishing'" >
+	  			<ng-include src="'publish.publishing.html'" >
+  				</ng-include>
+	  </div>
+	  <div ng-show="step=='published'" >
+	  			<ng-include src="'publish.published.html'" >
+  				</ng-include>
+	  </div>
+	  <div ng-show="step=='error'" >
+	  			<ng-include src="'publish.error.html'" >
+  				</ng-include>
+	  </div>
+	
+  </ion-content>
+</ion-view>

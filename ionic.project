@@ -1,0 +1,17 @@
+{
+  "name": "Walk2view",
+  "app_id": "d673bff0",
+  "gulpStartupTasks": [
+    "sass",
+    "templatecache",
+    "ng_annotate",
+    "useref",
+    "cssimg",
+    "fonts",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

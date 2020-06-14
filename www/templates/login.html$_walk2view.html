@@ -1,0 +1,46 @@
+<ion-view title="{{'login_txt' | translate}}" class="register-view">
+	 <ion-nav-bar class="bar-dark">
+	 <ion-nav-buttons side="left">
+          <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="myGoBack()"></button>
+        </ion-nav-buttons>
+	</ion-nav-bar>
+  <ion-content scroll="true">
+    <div class="col col-center">
+        <p align="center"><img src="img/logo1.png" class="login-logo"></p>
+    </div>
+      <div class="row form-wrapper">
+        <div class="col">
+          <form name="signup_form" class="" novalidate ng-controller="LoginCtrl">
+            <div class="form-fields-outer list list-inset">
+              <label class="item item-input">
+                <input type="email" placeholder="e-mail" name="email" ng-model="email" required>
+              </label>
+              <label class="item item-input" show-hide-container>
+                <input type="password" placeholder="{{'password_txt' | translate}}" name="password" ng-model="password" required show-hide-input>
+              </label>
+            </div>
+      
+          
+            <button class="button button-outline button-block button-light" ng-click="doLogin()" ng-disabled="signup_form.$invalid">
+              {{'init_session_txt' | translate}}
+            </button>
+            <br />
+              <button class="button button-clear" onclick="window.open('https://www.walk2view.com/Login/ResetPassword.aspx','_system', 'location=yes'); return false;">
+              {{'remember_password_txt' | translate}}
+            </button>
+            <div class="HorizontalRule"><div class="HorizontalRuleL"></div><span>{{'or_txt' | translate}}</span><div class="HorizontalRuleR"></div></div>
+            <button class="button button-block button-royal icon-left ion-social-facebook" ng-click="facebookSignIn()">
+              {{'facebook_login_txt' | translate}}
+            </button>
+            <br />
+            <button class="button button-clear" ng-click="register()">
+              {{'register2_txt' | translate}}
+            </button>
+            <br />
+            <p ng-show="error" class="message error">{{error}}</p>
+          </form>
+        </div>
+      </div>
+    </ion-content>
+
+</ion-view>

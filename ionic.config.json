@@ -1,0 +1,19 @@
+{
+  "name": "Walk2view",
+  "integrations": {},
+  "type": "angular",
+  "gulpStartupTasks": [
+    "sass",
+    "templatecache",
+    "ng_annotate",
+    "useref",
+    "cssimg",
+    "fonts",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "id": "d673bff0"
+}

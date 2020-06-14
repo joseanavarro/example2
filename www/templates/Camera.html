@@ -1,0 +1,76 @@
+<ion-view title="{{'camera_txt' | translate}}">
+  <ion-nav-bar class="bar-dark">
+			<ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="myGoBack()"></button>
+			</ion-nav-buttons>
+	</ion-nav-bar>
+
+    <ion-content>
+        <div ng-if="currentEvent.active" ng-bind-html="currentEvent.text | to_trusted">
+
+        </div>
+        <div style="text-align:center;">
+            <img src="img/camara1.png" style="max-width:50%;max-height:30vh;" />
+        </div>
+        <div ng-show="cameraConnected">
+
+            <div class="profile-info">
+
+                <div class="row" ng-class="'table-over-header'">
+                    <div class="col"><b>{{'camera_txt' | translate}}</b></div>
+                </div>
+                <div class="row" ng-class="'table-row-odd'" ng-class="'table-row-even'">
+                    <div class="col col-75">{{'status_txt' | translate}}</div>
+                    <div class="col">{{'camera_connected_txt' | translate}}</div>
+                </div>
+                <div class="row" ng-class="'table-row-odd'" ng-class="'table-row-even'">
+                    <div class="col col-75">{{'battery_level_txt' | translate}}</div>
+                    <div class="col">{{percentBatteryLevel}} %</div>
+                </div>
+            </div>
+
+        </div>
+        <div ng-hide="cameraConnected">
+
+            <div class="profile-info">
+                <div class="row" ng-class="'table-over-header'">
+                    <div class="col"><b>{{'camera_not_connected_txt' | translate}}</b></div>
+                </div>
+                <div class="row" ng-class="'table-over-header'">
+                  <div ng-hide="isAndroid" class="col">{{'camera_not_connected_ios_txt' | translate}}</div>
+                  <div ng-show="isAndroid" class="col">{{'camera_not_connected_and_txt' | translate}}</div>
+                </div>
+            </div>
+            <div ng-if="cameraTryConnect>0">
+
+                <div class="profile-info">
+                    <div class="row" ng-class="'table-over-header'">
+                        <div class="col">
+                            <ion-spinner icon="ios"></ion-spinner> {{'connection_attempt_txt' | translate}} {{cameraTryConnect}}
+
+                        </div>
+                    </div>
+                    <div class="row" ng-class="'table-over-header'">
+                        <div class="col">{{'err_camera_not_ok_txt' | translate}}</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div ng-hide="cameraConnected">
+          <button class="button button-block button-dark" ng-click="startConnection()">
+            {{'connect_camera_txt' | translate}}
+          </button>
+        </div>
+        <div ng-show="cameraConnected">
+
+          <ion-toggle ng-checked="{{hdr}}" ng-model="hdr" ng-click="updateHDR()" toggle-class="toggle-dark">{{'indoor_view_txt' | translate}}</ion-toggle>
+
+            <button class="button button-block button-dark" ng-click="takePanorama()">
+              {{'take_panorama_txt' | translate}}
+            </button>
+
+    </div>
+    </ion-content>
+</ion-view>

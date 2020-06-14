@@ -1,0 +1,2398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-4C6OOK1</Machine>
+    <WindowsUser>janav</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>27a11d20-e6fe-11e5-8881-3fd7bf1bab94</PackageIdentityName>
+    <IntermediateOutputPath>D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\build\phone\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\build\phone\debug\x86\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\SplashScreenPhone.scale-240.png">
+      <PackagePath>images\SplashScreenPhone.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\Square150x150Logo.scale-240.png">
+      <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\Square44x44Logo.scale-240.png">
+      <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\Square71x71Logo.scale-240.png">
+      <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\StoreLogo.scale-240.png">
+      <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\images\Wide310x150Logo.scale-240.png">
+      <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_css\img\countdown.png">
+      <PackagePath>www\dist\dist_css\img\countdown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_css\img\return.png">
+      <PackagePath>www\dist\dist_css\img\return.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_css\img\rotate_cardboard.png">
+      <PackagePath>www\dist\dist_css\img\rotate_cardboard.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\1.png">
+      <PackagePath>www\img\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\2.png">
+      <PackagePath>www\img\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\3.png">
+      <PackagePath>www\img\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\360_black.png">
+      <PackagePath>www\img\360_black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\360_white.png">
+      <PackagePath>www\img\360_white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\4.png">
+      <PackagePath>www\img\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\access-pano.png">
+      <PackagePath>www\img\access-pano.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\cross.png">
+      <PackagePath>www\img\cross.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\fondo.png">
+      <PackagePath>www\img\fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\ionic.png">
+      <PackagePath>www\img\ionic.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\location.png">
+      <PackagePath>www\img\location.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\logo1.png">
+      <PackagePath>www\img\logo1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\logo2.png">
+      <PackagePath>www\img\logo2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\next-arrow.png">
+      <PackagePath>www\img\next-arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\prev-arrow.png">
+      <PackagePath>www\img\prev-arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\radar-3-256x256.png">
+      <PackagePath>www\img\radar-3-256x256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\red_Arrow_up.png">
+      <PackagePath>www\img\red_Arrow_up.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\all.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\all.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\legend.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\legend.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\modules.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\modules.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.managers.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.managers.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.models.child.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.models.child.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.models.parent.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.models.parent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.options.builders.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.options.builders.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.options.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.options.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.utils.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.directives.api.utils.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.extensions.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.extensions.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.providers.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.providers.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.wrapped.png">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\png\modules\uiGmapgoogle-maps.wrapped.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\dist\images\markers-matte.png">
+      <PackagePath>www\lib\Leaflet.awesome-markers\dist\images\markers-matte.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\dist\images\markers-matte%402x.png">
+      <PackagePath>www\lib\Leaflet.awesome-markers\dist\images\markers-matte%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\dist\images\markers-plain.png">
+      <PackagePath>www\lib\Leaflet.awesome-markers\dist\images\markers-plain.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\dist\images\markers-shadow.png">
+      <PackagePath>www\lib\Leaflet.awesome-markers\dist\images\markers-shadow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\dist\images\markers-shadow%402x.png">
+      <PackagePath>www\lib\Leaflet.awesome-markers\dist\images\markers-shadow%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\dist\images\markers-soft.png">
+      <PackagePath>www\lib\Leaflet.awesome-markers\dist\images\markers-soft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\dist\images\markers-soft%402x.png">
+      <PackagePath>www\lib\Leaflet.awesome-markers\dist\images\markers-soft%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\screenshots\screenshot-matte.png">
+      <PackagePath>www\lib\Leaflet.awesome-markers\screenshots\screenshot-matte.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\screenshots\screenshot-soft.png">
+      <PackagePath>www\lib\Leaflet.awesome-markers\screenshots\screenshot-soft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\buttonBg.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\buttonBg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\buttonBgHover.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\buttonBgHover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\detach.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\detach.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\detachHover.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\detachHover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\disable.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\disable.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\disableHover.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\disableHover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\down.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\down.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\downActive.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\downActive.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\downHover.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\downHover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\errorIcon-sm.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\errorIcon-sm.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\errorIcon.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\errorIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\firebug.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\firebug.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\infoIcon.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\infoIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\min.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\min.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\minHover.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\minHover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\off.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\offHover.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\offHover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\search.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\shadowAlpha.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\shadowAlpha.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\sprite.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\sprite.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tabHoverLeft.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tabHoverLeft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tabHoverMid.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tabHoverMid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tabHoverRight.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tabHoverRight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tabLeft.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tabLeft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuCheckbox.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuCheckbox.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuPin.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuPin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuRadio.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuRadio.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuTarget.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuTarget.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuTargetHover.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuTargetHover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tabMid.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tabMid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tabRight.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tabRight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\textEditorBorders.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\textEditorBorders.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\textEditorCorners.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\textEditorCorners.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\titlebarMid.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\titlebarMid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\toolbarMid.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\toolbarMid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\twistyClosed.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\twistyClosed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\twistyOpen.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\twistyOpen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\up.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\up.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\upActive.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\upActive.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\upHover.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\upHover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\warningIcon.png">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\warningIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\css\img\countdown.png">
+      <PackagePath>www\lib\pannellumVR\css\img\countdown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\css\img\return.png">
+      <PackagePath>www\lib\pannellumVR\css\img\return.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\css\img\rotate_cardboard.png">
+      <PackagePath>www\lib\pannellumVR\css\img\rotate_cardboard.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\standalone\return.png">
+      <PackagePath>www\lib\pannellumVR\standalone\return.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\standalone\rotate_cardboard.png">
+      <PackagePath>www\lib\pannellumVR\standalone\rotate_cardboard.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app.js">
+      <PackagePath>www\dist\dist_js\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\app.js">
+      <PackagePath>www\dist\dist_js\app\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\configuration.js">
+      <PackagePath>www\dist\dist_js\app\configuration.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\AboutCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\AboutCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\app.js">
+      <PackagePath>www\dist\dist_js\app\controllers\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\ConfigCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\ConfigCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\HelpCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\HelpCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\Home2Ctrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\Home2Ctrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\HomeCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\HomeCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\ListController.js">
+      <PackagePath>www\dist\dist_js\app\controllers\ListController.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\LoginCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\LoginCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\LogoutCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\LogoutCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\MapCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\MapCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\NearCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\NearCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\PanoCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\PanoCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\ProfileCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\ProfileCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\PublishCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\PublishCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\recentCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\recentCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\RegisterCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\RegisterCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\RouteCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\RouteCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\RoutesCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\RoutesCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\SearchCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\SearchCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\StartCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\StartCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\VisitCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\VisitCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\controllers\VRCtrl.js">
+      <PackagePath>www\dist\dist_js\app\controllers\VRCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\directives\igTruncate.js">
+      <PackagePath>www\dist\dist_js\app\directives\igTruncate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\filters\filters.js">
+      <PackagePath>www\dist\dist_js\app\filters\filters.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\lang.js">
+      <PackagePath>www\dist\dist_js\app\lang.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\services\AuthService.js">
+      <PackagePath>www\dist\dist_js\app\services\AuthService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\services\backendService.js">
+      <PackagePath>www\dist\dist_js\app\services\backendService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\services\common.js">
+      <PackagePath>www\dist\dist_js\app\services\common.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\services\dataService.js">
+      <PackagePath>www\dist\dist_js\app\services\dataService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\services\dba.js">
+      <PackagePath>www\dist\dist_js\app\services\dba.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\services\instructionsService.js">
+      <PackagePath>www\dist\dist_js\app\services\instructionsService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\services\locationsService.js">
+      <PackagePath>www\dist\dist_js\app\services\locationsService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\services\mapsService.js">
+      <PackagePath>www\dist\dist_js\app\services\mapsService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\app\templates.js">
+      <PackagePath>www\dist\dist_js\app\templates.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_js\lib.js">
+      <PackagePath>www\dist\dist_js\lib.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\app.js">
+      <PackagePath>www\js\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\configuration.js">
+      <PackagePath>www\js\configuration.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\AboutCtrl.js">
+      <PackagePath>www\js\controllers\AboutCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\app.js">
+      <PackagePath>www\js\controllers\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\ConfigCtrl.js">
+      <PackagePath>www\js\controllers\ConfigCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\HelpCtrl.js">
+      <PackagePath>www\js\controllers\HelpCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\Home2Ctrl.js">
+      <PackagePath>www\js\controllers\Home2Ctrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\HomeCtrl.js">
+      <PackagePath>www\js\controllers\HomeCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\ListController.js">
+      <PackagePath>www\js\controllers\ListController.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\LoginCtrl.js">
+      <PackagePath>www\js\controllers\LoginCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\LogoutCtrl.js">
+      <PackagePath>www\js\controllers\LogoutCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\MapCtrl.js">
+      <PackagePath>www\js\controllers\MapCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\NearCtrl.js">
+      <PackagePath>www\js\controllers\NearCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\PanoCtrl.js">
+      <PackagePath>www\js\controllers\PanoCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\ProfileCtrl.js">
+      <PackagePath>www\js\controllers\ProfileCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\PublishCtrl.js">
+      <PackagePath>www\js\controllers\PublishCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\recentCtrl.js">
+      <PackagePath>www\js\controllers\recentCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\RegisterCtrl.js">
+      <PackagePath>www\js\controllers\RegisterCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\RouteCtrl.js">
+      <PackagePath>www\js\controllers\RouteCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\RoutesCtrl.js">
+      <PackagePath>www\js\controllers\RoutesCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\SearchCtrl.js">
+      <PackagePath>www\js\controllers\SearchCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\StartCtrl.js">
+      <PackagePath>www\js\controllers\StartCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\VisitCtrl.js">
+      <PackagePath>www\js\controllers\VisitCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\controllers\VRCtrl.js">
+      <PackagePath>www\js\controllers\VRCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\directives\igTruncate.js">
+      <PackagePath>www\js\directives\igTruncate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\filters\filters.js">
+      <PackagePath>www\js\filters\filters.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\lang.js">
+      <PackagePath>www\js\lang.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\services\AuthService.js">
+      <PackagePath>www\js\services\AuthService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\services\backendService.js">
+      <PackagePath>www\js\services\backendService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\services\common.js">
+      <PackagePath>www\js\services\common.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\services\dataService.js">
+      <PackagePath>www\js\services\dataService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\services\dba.js">
+      <PackagePath>www\js\services\dba.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\services\instructionsService.js">
+      <PackagePath>www\js\services\instructionsService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\services\locationsService.js">
+      <PackagePath>www\js\services\locationsService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\services\mapsService.js">
+      <PackagePath>www\js\services\mapsService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\templates.js">
+      <PackagePath>www\js\templates.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-animate\angular-animate.js">
+      <PackagePath>www\lib\angular-animate\angular-animate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-animate\angular-animate.min.js">
+      <PackagePath>www\lib\angular-animate\angular-animate.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-animate\index.js">
+      <PackagePath>www\lib\angular-animate\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\angular-google-maps-street-view.js">
+      <PackagePath>www\lib\angular-google-maps\dist\angular-google-maps-street-view.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\angular-google-maps-street-view.min.js">
+      <PackagePath>www\lib\angular-google-maps\dist\angular-google-maps-street-view.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.js">
+      <PackagePath>www\lib\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.min.js">
+      <PackagePath>www\lib\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\angular-google-maps.js">
+      <PackagePath>www\lib\angular-google-maps\dist\angular-google-maps.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\angular-google-maps.min.js">
+      <PackagePath>www\lib\angular-google-maps\dist\angular-google-maps.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\angular-google-maps_dev_mapped.js">
+      <PackagePath>www\lib\angular-google-maps\dist\angular-google-maps_dev_mapped.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\angular-google-maps_dev_mapped.min.js">
+      <PackagePath>www\lib\angular-google-maps\dist\angular-google-maps_dev_mapped.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\demo\demo-app.js">
+      <PackagePath>www\lib\angular-local-storage\demo\demo-app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\dist\angular-local-storage.js">
+      <PackagePath>www\lib\angular-local-storage\dist\angular-local-storage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\dist\angular-local-storage.min.js">
+      <PackagePath>www\lib\angular-local-storage\dist\angular-local-storage.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\index.js">
+      <PackagePath>www\lib\angular-local-storage\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-resource\angular-resource.js">
+      <PackagePath>www\lib\angular-resource\angular-resource.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-resource\angular-resource.min.js">
+      <PackagePath>www\lib\angular-resource\angular-resource.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-resource\index.js">
+      <PackagePath>www\lib\angular-resource\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-sanitize\angular-sanitize.js">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-sanitize\angular-sanitize.min.js">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-sanitize\index.js">
+      <PackagePath>www\lib\angular-sanitize\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\dist\angular-simple-logger.js">
+      <PackagePath>www\lib\angular-simple-logger\dist\angular-simple-logger.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\dist\angular-simple-logger.min.js">
+      <PackagePath>www\lib\angular-simple-logger\dist\angular-simple-logger.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\dist\index.js">
+      <PackagePath>www\lib\angular-simple-logger\dist\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\package.js">
+      <PackagePath>www\lib\angular-simple-logger\package.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-translate\angular-translate.js">
+      <PackagePath>www\lib\angular-translate\angular-translate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-translate\angular-translate.min.js">
+      <PackagePath>www\lib\angular-translate\angular-translate.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\release\angular-ui-router.js">
+      <PackagePath>www\lib\angular-ui-router\release\angular-ui-router.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\release\angular-ui-router.min.js">
+      <PackagePath>www\lib\angular-ui-router\release\angular-ui-router.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\src\common.js">
+      <PackagePath>www\lib\angular-ui-router\src\common.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\src\resolve.js">
+      <PackagePath>www\lib\angular-ui-router\src\resolve.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\src\state.js">
+      <PackagePath>www\lib\angular-ui-router\src\state.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\src\stateDirectives.js">
+      <PackagePath>www\lib\angular-ui-router\src\stateDirectives.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\src\stateFilters.js">
+      <PackagePath>www\lib\angular-ui-router\src\stateFilters.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\src\templateFactory.js">
+      <PackagePath>www\lib\angular-ui-router\src\templateFactory.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\src\urlMatcherFactory.js">
+      <PackagePath>www\lib\angular-ui-router\src\urlMatcherFactory.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\src\urlRouter.js">
+      <PackagePath>www\lib\angular-ui-router\src\urlRouter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\src\view.js">
+      <PackagePath>www\lib\angular-ui-router\src\view.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\src\viewDirective.js">
+      <PackagePath>www\lib\angular-ui-router\src\viewDirective.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\src\viewScroll.js">
+      <PackagePath>www\lib\angular-ui-router\src\viewScroll.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\index.js">
+      <PackagePath>www\lib\AngularJS-Toaster\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\karma.conf.js">
+      <PackagePath>www\lib\AngularJS-Toaster\karma.conf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\karma.coverage.js">
+      <PackagePath>www\lib\AngularJS-Toaster\karma.coverage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\test\directiveTemplateSpec.js">
+      <PackagePath>www\lib\AngularJS-Toaster\test\directiveTemplateSpec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\test\toasterContainerControllerSpec.js">
+      <PackagePath>www\lib\AngularJS-Toaster\test\toasterContainerControllerSpec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\test\toasterContainerSpec.js">
+      <PackagePath>www\lib\AngularJS-Toaster\test\toasterContainerSpec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\toaster.js">
+      <PackagePath>www\lib\AngularJS-Toaster\toaster.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\toaster.min.js">
+      <PackagePath>www\lib\AngularJS-Toaster\toaster.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular\angular.js">
+      <PackagePath>www\lib\angular\angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular\angular.min.js">
+      <PackagePath>www\lib\angular\angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular\index.js">
+      <PackagePath>www\lib\angular\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\geocoder-service.js">
+      <PackagePath>www\lib\geocoder-service.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\angular-ui\angular-ui-router.js">
+      <PackagePath>www\lib\ionic\js\angular-ui\angular-ui-router.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\angular-ui\angular-ui-router.min.js">
+      <PackagePath>www\lib\ionic\js\angular-ui\angular-ui-router.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\angular\angular-animate.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-animate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\angular\angular-animate.min.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-animate.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\angular\angular-resource.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-resource.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\angular\angular-resource.min.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-resource.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\angular\angular-sanitize.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-sanitize.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\angular\angular-sanitize.min.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-sanitize.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\angular\angular.js">
+      <PackagePath>www\lib\ionic\js\angular\angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\angular\angular.min.js">
+      <PackagePath>www\lib\ionic\js\angular\angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\ionic-angular.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\ionic-angular.min.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\ionic.bundle.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\ionic.bundle.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\ionic.js">
+      <PackagePath>www\lib\ionic\js\ionic.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\js\ionic.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\dist\leaflet.awesome-markers.js">
+      <PackagePath>www\lib\Leaflet.awesome-markers\dist\leaflet.awesome-markers.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\dist\leaflet.awesome-markers.min.js">
+      <PackagePath>www\lib\Leaflet.awesome-markers\dist\leaflet.awesome-markers.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\leaflet\angular-leaflet-directive.min.js">
+      <PackagePath>www\lib\leaflet\angular-leaflet-directive.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\leaflet\leaflet.js">
+      <PackagePath>www\lib\leaflet\leaflet.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\fp\_baseConvert.js">
+      <PackagePath>www\lib\lodash\fp\_baseConvert.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\fp\_convertBrowser.js">
+      <PackagePath>www\lib\lodash\fp\_convertBrowser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\fp\_mapping.js">
+      <PackagePath>www\lib\lodash\fp\_mapping.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\common\minify.js">
+      <PackagePath>www\lib\lodash\lib\common\minify.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\common\uglify.options.js">
+      <PackagePath>www\lib\lodash\lib\common\uglify.options.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\common\util.js">
+      <PackagePath>www\lib\lodash\lib\common\util.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\fp\build-dist.js">
+      <PackagePath>www\lib\lodash\lib\fp\build-dist.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\fp\build-doc.js">
+      <PackagePath>www\lib\lodash\lib\fp\build-doc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\fp\build-modules.js">
+      <PackagePath>www\lib\lodash\lib\fp\build-modules.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\main\build-dist.js">
+      <PackagePath>www\lib\lodash\lib\main\build-dist.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\main\build-doc.js">
+      <PackagePath>www\lib\lodash\lib\main\build-doc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\main\build-modules.js">
+      <PackagePath>www\lib\lodash\lib\main\build-modules.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lodash.js">
+      <PackagePath>www\lib\lodash\lodash.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\perf\asset\perf-ui.js">
+      <PackagePath>www\lib\lodash\perf\asset\perf-ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\perf\perf.js">
+      <PackagePath>www\lib\lodash\perf\perf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\test\asset\test-ui.js">
+      <PackagePath>www\lib\lodash\test\asset\test-ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\test\asset\worker.js">
+      <PackagePath>www\lib\lodash\test\asset\worker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\test\remove.js">
+      <PackagePath>www\lib\lodash\test\remove.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\test\saucelabs.js">
+      <PackagePath>www\lib\lodash\test\saucelabs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\test\test-fp.js">
+      <PackagePath>www\lib\lodash\test\test-fp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\test\test.js">
+      <PackagePath>www\lib\lodash\test\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\backbone\backbone.js">
+      <PackagePath>www\lib\lodash\vendor\backbone\backbone.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\backbone\test\collection.js">
+      <PackagePath>www\lib\lodash\vendor\backbone\test\collection.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\backbone\test\events.js">
+      <PackagePath>www\lib\lodash\vendor\backbone\test\events.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\backbone\test\model.js">
+      <PackagePath>www\lib\lodash\vendor\backbone\test\model.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\backbone\test\noconflict.js">
+      <PackagePath>www\lib\lodash\vendor\backbone\test\noconflict.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\backbone\test\router.js">
+      <PackagePath>www\lib\lodash\vendor\backbone\test\router.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\backbone\test\setup\dom-setup.js">
+      <PackagePath>www\lib\lodash\vendor\backbone\test\setup\dom-setup.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\backbone\test\setup\environment.js">
+      <PackagePath>www\lib\lodash\vendor\backbone\test\setup\environment.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\backbone\test\sync.js">
+      <PackagePath>www\lib\lodash\vendor\backbone\test\sync.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\backbone\test\view.js">
+      <PackagePath>www\lib\lodash\vendor\backbone\test\view.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\src\firebug-lite-debug.js">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\src\firebug-lite-debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\json-js\json2.js">
+      <PackagePath>www\lib\lodash\vendor\json-js\json2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\underscore\test\arrays.js">
+      <PackagePath>www\lib\lodash\vendor\underscore\test\arrays.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\underscore\test\chaining.js">
+      <PackagePath>www\lib\lodash\vendor\underscore\test\chaining.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\underscore\test\collections.js">
+      <PackagePath>www\lib\lodash\vendor\underscore\test\collections.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\underscore\test\cross-document.js">
+      <PackagePath>www\lib\lodash\vendor\underscore\test\cross-document.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\underscore\test\functions.js">
+      <PackagePath>www\lib\lodash\vendor\underscore\test\functions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\underscore\test\objects.js">
+      <PackagePath>www\lib\lodash\vendor\underscore\test\objects.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\underscore\test\utility.js">
+      <PackagePath>www\lib\lodash\vendor\underscore\test\utility.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\underscore\underscore-min.js">
+      <PackagePath>www\lib\lodash\vendor\underscore\underscore-min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\underscore\underscore.js">
+      <PackagePath>www\lib\lodash\vendor\underscore\underscore.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\moment-duration-format\lib\moment-duration-format.js">
+      <PackagePath>www\lib\moment-duration-format\lib\moment-duration-format.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\dist\ng-cordova-oauth.js">
+      <PackagePath>www\lib\ng-cordova-oauth\dist\ng-cordova-oauth.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\dist\ng-cordova-oauth.min.js">
+      <PackagePath>www\lib\ng-cordova-oauth\dist\ng-cordova-oauth.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\Gruntfile.js">
+      <PackagePath>www\lib\ng-cordova-oauth\Gruntfile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\karma.conf.js">
+      <PackagePath>www\lib\ng-cordova-oauth\karma.conf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.adfs.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.adfs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.azuread.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.azuread.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.box.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.box.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.digitalOcean.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.digitalOcean.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.dribble.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.dribble.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.dropbox.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.dropbox.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.envato.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.envato.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.facebook.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.facebook.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.familySearch.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.familySearch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.foursquare.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.foursquare.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.github.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.github.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.google.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.google.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.imgur.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.imgur.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.instagram.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.instagram.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.jawbone.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.jawbone.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.linkedin.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.linkedin.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.magento.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.magento.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.meetup.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.meetup.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.odnoklassniki.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.odnoklassniki.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.pocket.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.pocket.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.rally.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.rally.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.reddit.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.reddit.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.salesforce.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.salesforce.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.slack.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.slack.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.spotify.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.spotify.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.strava.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.strava.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.stripe.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.stripe.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.twitter.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.twitter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.uber.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.uber.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.untappd.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.untappd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.venmo.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.venmo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.vkontakte.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.vkontakte.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.weibo.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.weibo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.windowslive.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.windowslive.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.withings.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.withings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\oauth.yammer.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\oauth.yammer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\plugin.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\plugin.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\src\utility.js">
+      <PackagePath>www\lib\ng-cordova-oauth\src\utility.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova.min.js">
+      <PackagePath>www\lib\ng-cordova.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngCordova\dist\ng-cordova-mocks.js">
+      <PackagePath>www\lib\ngCordova\dist\ng-cordova-mocks.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngCordova\dist\ng-cordova-mocks.min.js">
+      <PackagePath>www\lib\ngCordova\dist\ng-cordova-mocks.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngCordova\dist\ng-cordova.js">
+      <PackagePath>www\lib\ngCordova\dist\ng-cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngCordova\dist\ng-cordova.min.js">
+      <PackagePath>www\lib\ngCordova\dist\ng-cordova.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngstorage\ngStorage.js">
+      <PackagePath>www\lib\ngstorage\ngStorage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngstorage\ngStorage.min.js">
+      <PackagePath>www\lib\ngstorage\ngStorage.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngstorage\package.js">
+      <PackagePath>www\lib\ngstorage\package.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\js\libpannellum.js">
+      <PackagePath>www\lib\pannellumVR\js\libpannellum.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\js\pannellum.js">
+      <PackagePath>www\lib\pannellumVR\js\pannellum.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\js\RequestAnimationFrame.js">
+      <PackagePath>www\lib\pannellumVR\js\RequestAnimationFrame.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\platform\platform.js">
+      <PackagePath>www\lib\platform\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\underscore\underscore-min.js">
+      <PackagePath>www\lib\underscore\underscore-min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\underscore\underscore.js">
+      <PackagePath>www\lib\underscore\underscore.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\com.lampa.startapp\www\startApp.js">
+      <PackagePath>www\plugins\com.lampa.startapp\www\startApp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\com.phonegap.plugins.OrientationLock\www\orientationLock.js">
+      <PackagePath>www\plugins\com.phonegap.plugins.OrientationLock\www\orientationLock.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-console\www\console-via-logger.js">
+      <PackagePath>www\plugins\cordova-plugin-console\www\console-via-logger.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-console\www\logger.js">
+      <PackagePath>www\plugins\cordova-plugin-console\www\logger.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-device-orientation\src\windows\CompassProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-device-orientation\src\windows\CompassProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-device-orientation\www\compass.js">
+      <PackagePath>www\plugins\cordova-plugin-device-orientation\www\compass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-device-orientation\www\CompassError.js">
+      <PackagePath>www\plugins\cordova-plugin-device-orientation\www\CompassError.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-device-orientation\www\CompassHeading.js">
+      <PackagePath>www\plugins\cordova-plugin-device-orientation\www\CompassHeading.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
+      <PackagePath>www\plugins\cordova-plugin-device\www\device.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file-transfer\src\windows\FileTransferProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-file-transfer\src\windows\FileTransferProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file-transfer\www\FileTransfer.js">
+      <PackagePath>www\plugins\cordova-plugin-file-transfer\www\FileTransfer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file-transfer\www\FileTransferError.js">
+      <PackagePath>www\plugins\cordova-plugin-file-transfer\www\FileTransferError.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\src\windows\FileProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-file\src\windows\FileProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\browser\isChrome.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\browser\isChrome.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\DirectoryEntry.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\DirectoryEntry.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\DirectoryReader.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\DirectoryReader.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\Entry.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\Entry.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\File.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\File.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\FileEntry.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileEntry.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\FileError.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileError.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\FileReader.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileReader.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\FileSystem.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileSystem.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\fileSystemPaths.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\fileSystemPaths.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\fileSystems.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\fileSystems.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\FileUploadOptions.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileUploadOptions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\FileUploadResult.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileUploadResult.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\FileWriter.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileWriter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\Flags.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\Flags.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\LocalFileSystem.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\LocalFileSystem.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\Metadata.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\Metadata.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\ProgressEvent.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\ProgressEvent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\requestFileSystem.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\requestFileSystem.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-file\www\resolveLocalFileSystemURI.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\resolveLocalFileSystemURI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-geolocation\www\Coordinates.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\Coordinates.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-geolocation\www\geolocation.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\geolocation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-geolocation\www\Position.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\Position.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-geolocation\www\PositionError.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\PositionError.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-google-analytics\www\analytics.js">
+      <PackagePath>www\plugins\cordova-plugin-google-analytics\www\analytics.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-image-picker\www\imagepicker.js">
+      <PackagePath>www\plugins\cordova-plugin-image-picker\www\imagepicker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-insomnia\src\windows\InsomniaProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-insomnia\src\windows\InsomniaProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-insomnia\www\Insomnia.js">
+      <PackagePath>www\plugins\cordova-plugin-insomnia\www\Insomnia.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\splashscreen.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\splashscreen.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-plugin-statusbar\www\statusbar.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\www\statusbar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\cordova-sqlite-storage\www\SQLitePlugin.js">
+      <PackagePath>www\plugins\cordova-sqlite-storage\www\SQLitePlugin.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js">
+      <PackagePath>www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\plugins\org.beuckman.geocoder\www\geocoder.js">
+      <PackagePath>www\plugins\org.beuckman.geocoder\www\geocoder.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\css\inappbrowser.css">
+      <PackagePath>www\css\inappbrowser.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\css\ionic.app.css">
+      <PackagePath>www\css\ionic.app.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\css\ionic.app.min.css">
+      <PackagePath>www\css\ionic.app.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\css\style.css">
+      <PackagePath>www\css\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\css\toaster.css">
+      <PackagePath>www\css\toaster.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_css\styles.css">
+      <PackagePath>www\dist\dist_css\styles.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\demo\demo-style.css">
+      <PackagePath>www\lib\angular-local-storage\demo\demo-style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\toaster.css">
+      <PackagePath>www\lib\AngularJS-Toaster\toaster.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\toaster.min.css">
+      <PackagePath>www\lib\AngularJS-Toaster\toaster.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular\angular-csp.css">
+      <PackagePath>www\lib\angular\angular-csp.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\css\font-awesome.css">
+      <PackagePath>www\lib\font-awesome\css\font-awesome.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\css\font-awesome.min.css">
+      <PackagePath>www\lib\font-awesome\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\css\ionic.css">
+      <PackagePath>www\lib\ionic\css\ionic.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\css\ionic.min.css">
+      <PackagePath>www\lib\ionic\css\ionic.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\dist\leaflet.awesome-markers.css">
+      <PackagePath>www\lib\Leaflet.awesome-markers\dist\leaflet.awesome-markers.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\examples\css\font-awesome-ie7.min.css">
+      <PackagePath>www\lib\Leaflet.awesome-markers\examples\css\font-awesome-ie7.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\examples\css\font-awesome.min.css">
+      <PackagePath>www\lib\Leaflet.awesome-markers\examples\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\debugger.css">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\debugger.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\firebug-1.3a2.css">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\firebug-1.3a2.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\firebug.css">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\firebug.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\firebug.IE6.css">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\firebug.IE6.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\html.css">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\html.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\css\pannellum.css">
+      <PackagePath>www\lib\pannellumVR\css\pannellum.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\standalone\standalone.css">
+      <PackagePath>www\lib\pannellumVR\standalone\standalone.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_css\img\background.svg">
+      <PackagePath>www\dist\dist_css\img\background.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_css\img\compass.svg">
+      <PackagePath>www\dist\dist_css\img\compass.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_css\img\grab.svg">
+      <PackagePath>www\dist\dist_css\img\grab.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_css\img\grabbing.svg">
+      <PackagePath>www\dist\dist_css\img\grabbing.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_css\img\sprites.svg">
+      <PackagePath>www\dist\dist_css\img\sprites.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\lib\ionic\fonts\ionicons.svg">
+      <PackagePath>www\dist\lib\ionic\fonts\ionicons.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\fonts\fontawesome-webfont.svg">
+      <PackagePath>www\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\cardboard.svg">
+      <PackagePath>www\img\cardboard.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\comment.svg">
+      <PackagePath>www\img\comment.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\heart.svg">
+      <PackagePath>www\img\heart.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\options.svg">
+      <PackagePath>www\img\options.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\views.svg">
+      <PackagePath>www\img\views.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\fonts\fontawesome-webfont.svg">
+      <PackagePath>www\lib\font-awesome\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\fonts\ionicons.svg">
+      <PackagePath>www\lib\ionic\fonts\ionicons.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\examples\font\fontawesome-webfont.svg">
+      <PackagePath>www\lib\Leaflet.awesome-markers\examples\font\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\roundCorner.svg">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\roundCorner.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\css\img\background.svg">
+      <PackagePath>www\lib\pannellumVR\css\img\background.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\css\img\compass.svg">
+      <PackagePath>www\lib\pannellumVR\css\img\compass.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\css\img\grab.svg">
+      <PackagePath>www\lib\pannellumVR\css\img\grab.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\css\img\grabbing.svg">
+      <PackagePath>www\lib\pannellumVR\css\img\grabbing.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\css\img\sprites.svg">
+      <PackagePath>www\lib\pannellumVR\css\img\sprites.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\dist_css\img\countdown.psb">
+      <PackagePath>www\dist\dist_css\img\countdown.psb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\pannellumVR\css\img\countdown.psb">
+      <PackagePath>www\lib\pannellumVR\css\img\countdown.psb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\index.html">
+      <PackagePath>www\dist\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\demo\demo.html">
+      <PackagePath>www\lib\angular-local-storage\demo\demo.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\examples\basic-example.html">
+      <PackagePath>www\lib\Leaflet.awesome-markers\examples\basic-example.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\examples\random-markers.html">
+      <PackagePath>www\lib\Leaflet.awesome-markers\examples\random-markers.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\examples\with-bootstrap.html">
+      <PackagePath>www\lib\Leaflet.awesome-markers\examples\with-bootstrap.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\perf\index.html">
+      <PackagePath>www\lib\lodash\perf\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\test\backbone.html">
+      <PackagePath>www\lib\lodash\test\backbone.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\test\fp.html">
+      <PackagePath>www\lib\lodash\test\fp.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\test\index.html">
+      <PackagePath>www\lib\lodash\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\test\underscore.html">
+      <PackagePath>www\lib\lodash\test\underscore.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\firebug.html">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\firebug.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\about.html">
+      <PackagePath>www\templates\about.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\addLocation.html">
+      <PackagePath>www\templates\addLocation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\button-cam-android.html">
+      <PackagePath>www\templates\button-cam-android.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\config.html">
+      <PackagePath>www\templates\config.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\favorites.html">
+      <PackagePath>www\templates\favorites.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\findLocation.html">
+      <PackagePath>www\templates\findLocation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\help.html">
+      <PackagePath>www\templates\help.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\home.html">
+      <PackagePath>www\templates\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\home_header1.html">
+      <PackagePath>www\templates\home_header1.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\home_header2.html">
+      <PackagePath>www\templates\home_header2.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\list.html">
+      <PackagePath>www\templates\list.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\list_1.html">
+      <PackagePath>www\templates\list_1.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\list_2.html">
+      <PackagePath>www\templates\list_2.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\list_header1.html">
+      <PackagePath>www\templates\list_header1.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\list_header2.html">
+      <PackagePath>www\templates\list_header2.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\login.html">
+      <PackagePath>www\templates\login.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\logout.html">
+      <PackagePath>www\templates\logout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\map.html">
+      <PackagePath>www\templates\map.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\map_1.html">
+      <PackagePath>www\templates\map_1.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\map_2.html">
+      <PackagePath>www\templates\map_2.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\map_header1.html">
+      <PackagePath>www\templates\map_header1.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\map_header2.html">
+      <PackagePath>www\templates\map_header2.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\menu.html">
+      <PackagePath>www\templates\menu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\near.html">
+      <PackagePath>www\templates\near.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\pano.html">
+      <PackagePath>www\templates\pano.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\popup.html">
+      <PackagePath>www\templates\popup.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\profile.html">
+      <PackagePath>www\templates\profile.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\publish.html">
+      <PackagePath>www\templates\publish.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\recent.html">
+      <PackagePath>www\templates\recent.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\register.html">
+      <PackagePath>www\templates\register.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\routeDesc.html">
+      <PackagePath>www\templates\routeDesc.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\routes.html">
+      <PackagePath>www\templates\routes.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\route_header1.html">
+      <PackagePath>www\templates\route_header1.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\search.html">
+      <PackagePath>www\templates\search.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\shoot.html">
+      <PackagePath>www\templates\shoot.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\start.html">
+      <PackagePath>www\templates\start.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\tab-list.html">
+      <PackagePath>www\templates\tab-list.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\tab-map.html">
+      <PackagePath>www\templates\tab-map.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\tabs.html">
+      <PackagePath>www\templates\tabs.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\visitDesc.html">
+      <PackagePath>www\templates\visitDesc.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\visitlist.html">
+      <PackagePath>www\templates\visitlist.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\templates\VR.html">
+      <PackagePath>www\templates\VR.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\lib\ionic\fonts\ionicons.eot">
+      <PackagePath>www\dist\lib\ionic\fonts\ionicons.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\fonts\fontawesome-webfont.eot">
+      <PackagePath>www\fonts\fontawesome-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\fonts\fontawesome-webfont.eot">
+      <PackagePath>www\lib\font-awesome\fonts\fontawesome-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\fonts\ionicons.eot">
+      <PackagePath>www\lib\ionic\fonts\ionicons.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\examples\font\fontawesome-webfont.eot">
+      <PackagePath>www\lib\Leaflet.awesome-markers\examples\font\fontawesome-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\lib\ionic\fonts\ionicons.ttf">
+      <PackagePath>www\dist\lib\ionic\fonts\ionicons.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\lib\ionic\fonts\OpenSans-Regular.ttf">
+      <PackagePath>www\dist\lib\ionic\fonts\OpenSans-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\fonts\fontawesome-webfont.ttf">
+      <PackagePath>www\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\fonts\OpenSans-Regular.ttf">
+      <PackagePath>www\fonts\OpenSans-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\fonts\fontawesome-webfont.ttf">
+      <PackagePath>www\lib\font-awesome\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\fonts\ionicons.ttf">
+      <PackagePath>www\lib\ionic\fonts\ionicons.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\fonts\OpenSans-Regular.ttf">
+      <PackagePath>www\lib\ionic\fonts\OpenSans-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\examples\font\fontawesome-webfont.ttf">
+      <PackagePath>www\lib\Leaflet.awesome-markers\examples\font\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\dist\lib\ionic\fonts\ionicons.woff">
+      <PackagePath>www\dist\lib\ionic\fonts\ionicons.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\fonts\fontawesome-webfont.woff">
+      <PackagePath>www\fonts\fontawesome-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\fonts\fontawesome-webfont.woff">
+      <PackagePath>www\lib\font-awesome\fonts\fontawesome-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\fonts\ionicons.woff">
+      <PackagePath>www\lib\ionic\fonts\ionicons.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\examples\font\fontawesome-webfont.woff">
+      <PackagePath>www\lib\Leaflet.awesome-markers\examples\font\fontawesome-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\fonts\FontAwesome.otf">
+      <PackagePath>www\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\fonts\FontAwesome.otf">
+      <PackagePath>www\lib\font-awesome\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\examples\font\FontAwesome.otf">
+      <PackagePath>www\lib\Leaflet.awesome-markers\examples\font\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\anon_user.jpg">
+      <PackagePath>www\img\anon_user.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\img\fondo-portada.jpg">
+      <PackagePath>www\img\fondo-portada.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\js\.jshintrc">
+      <PackagePath>www\js\.jshintrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-animate\.bower.json">
+      <PackagePath>www\lib\angular-animate\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-animate\bower.json">
+      <PackagePath>www\lib\angular-animate\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-animate\package.json">
+      <PackagePath>www\lib\angular-animate\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\.bower.json">
+      <PackagePath>www\lib\angular-google-maps\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\bower.json">
+      <PackagePath>www\lib\angular-google-maps\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\.bower.json">
+      <PackagePath>www\lib\angular-local-storage\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\bower.json">
+      <PackagePath>www\lib\angular-local-storage\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\package.json">
+      <PackagePath>www\lib\angular-local-storage\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-resource\.bower.json">
+      <PackagePath>www\lib\angular-resource\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-resource\bower.json">
+      <PackagePath>www\lib\angular-resource\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-resource\package.json">
+      <PackagePath>www\lib\angular-resource\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-sanitize\.bower.json">
+      <PackagePath>www\lib\angular-sanitize\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-sanitize\bower.json">
+      <PackagePath>www\lib\angular-sanitize\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-sanitize\package.json">
+      <PackagePath>www\lib\angular-sanitize\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\.bower.json">
+      <PackagePath>www\lib\angular-simple-logger\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\bower.json">
+      <PackagePath>www\lib\angular-simple-logger\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\coffeelint.json">
+      <PackagePath>www\lib\angular-simple-logger\coffeelint.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\package.json">
+      <PackagePath>www\lib\angular-simple-logger\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-translate\.bower.json">
+      <PackagePath>www\lib\angular-translate\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-translate\bower.json">
+      <PackagePath>www\lib\angular-translate\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\.bower.json">
+      <PackagePath>www\lib\angular-ui-router\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\bower.json">
+      <PackagePath>www\lib\angular-ui-router\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\.bower.json">
+      <PackagePath>www\lib\AngularJS-Toaster\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\bower.json">
+      <PackagePath>www\lib\AngularJS-Toaster\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\package.json">
+      <PackagePath>www\lib\AngularJS-Toaster\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular\.bower.json">
+      <PackagePath>www\lib\angular\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular\bower.json">
+      <PackagePath>www\lib\angular\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular\package.json">
+      <PackagePath>www\lib\angular\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\.bower.json">
+      <PackagePath>www\lib\font-awesome\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\bower.json">
+      <PackagePath>www\lib\font-awesome\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\tsconfig.json">
+      <PackagePath>www\lib\ionic\scss\tsconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\version.json">
+      <PackagePath>www\lib\ionic\version.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\.bower.json">
+      <PackagePath>www\lib\Leaflet.awesome-markers\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\bower.json">
+      <PackagePath>www\lib\Leaflet.awesome-markers\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\.bower.json">
+      <PackagePath>www\lib\lodash\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\package.json">
+      <PackagePath>www\lib\lodash\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\moment-duration-format\.bower.json">
+      <PackagePath>www\lib\moment-duration-format\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\moment-duration-format\bower.json">
+      <PackagePath>www\lib\moment-duration-format\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\moment-duration-format\package.json">
+      <PackagePath>www\lib\moment-duration-format\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\.bower.json">
+      <PackagePath>www\lib\ng-cordova-oauth\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\bower.json">
+      <PackagePath>www\lib\ng-cordova-oauth\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\package.json">
+      <PackagePath>www\lib\ng-cordova-oauth\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngCordova\.bower.json">
+      <PackagePath>www\lib\ngCordova\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngCordova\bower.json">
+      <PackagePath>www\lib\ngCordova\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngCordova\package.json">
+      <PackagePath>www\lib\ngCordova\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngstorage\.bower.json">
+      <PackagePath>www\lib\ngstorage\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngstorage\bower.json">
+      <PackagePath>www\lib\ngstorage\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\platform\.bower.json">
+      <PackagePath>www\lib\platform\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\platform\bower.json">
+      <PackagePath>www\lib\platform\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\underscore\.bower.json">
+      <PackagePath>www\lib\underscore\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\underscore\bower.json">
+      <PackagePath>www\lib\underscore\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-animate\angular-animate.min.js.map">
+      <PackagePath>www\lib\angular-animate\angular-animate.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.js.map">
+      <PackagePath>www\lib\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.min.js.map">
+      <PackagePath>www\lib\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\angular-google-maps_dev_mapped.js.map">
+      <PackagePath>www\lib\angular-google-maps\dist\angular-google-maps_dev_mapped.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\angular-google-maps_dev_mapped.min.js.map">
+      <PackagePath>www\lib\angular-google-maps\dist\angular-google-maps_dev_mapped.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-resource\angular-resource.min.js.map">
+      <PackagePath>www\lib\angular-resource\angular-resource.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-sanitize\angular-sanitize.min.js.map">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular\angular.min.js.map">
+      <PackagePath>www\lib\angular\angular.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\css\font-awesome.css.map">
+      <PackagePath>www\lib\font-awesome\css\font-awesome.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\underscore\underscore-min.map">
+      <PackagePath>www\lib\underscore\underscore-min.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-animate\README.md">
+      <PackagePath>www\lib\angular-animate\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\CHANGELOG.md">
+      <PackagePath>www\lib\angular-google-maps\CHANGELOG.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\CHANGELOG.md">
+      <PackagePath>www\lib\angular-local-storage\CHANGELOG.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\README.md">
+      <PackagePath>www\lib\angular-local-storage\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-resource\README.md">
+      <PackagePath>www\lib\angular-resource\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-sanitize\README.md">
+      <PackagePath>www\lib\angular-sanitize\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\README.md">
+      <PackagePath>www\lib\angular-simple-logger\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-translate\README.md">
+      <PackagePath>www\lib\angular-translate\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\CHANGELOG.md">
+      <PackagePath>www\lib\angular-ui-router\CHANGELOG.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\CONTRIBUTING.md">
+      <PackagePath>www\lib\angular-ui-router\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\README.md">
+      <PackagePath>www\lib\angular-ui-router\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\README.md">
+      <PackagePath>www\lib\AngularJS-Toaster\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular\README.md">
+      <PackagePath>www\lib\angular\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\README.md">
+      <PackagePath>www\lib\Leaflet.awesome-markers\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\.github\CONTRIBUTING.md">
+      <PackagePath>www\lib\lodash\.github\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\CODE_OF_CONDUCT.md">
+      <PackagePath>www\lib\lodash\CODE_OF_CONDUCT.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\doc\README.md">
+      <PackagePath>www\lib\lodash\doc\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\README.md">
+      <PackagePath>www\lib\lodash\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\moment-duration-format\README.md">
+      <PackagePath>www\lib\moment-duration-format\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\CHANGELOG.md">
+      <PackagePath>www\lib\ng-cordova-oauth\CHANGELOG.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\README.md">
+      <PackagePath>www\lib\ng-cordova-oauth\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngCordova\CHANGELOG.md">
+      <PackagePath>www\lib\ngCordova\CHANGELOG.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngCordova\README.md">
+      <PackagePath>www\lib\ngCordova\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngstorage\README.md">
+      <PackagePath>www\lib\ngstorage\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\underscore\README.md">
+      <PackagePath>www\lib\underscore\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\.travis.yml">
+      <PackagePath>www\lib\angular-google-maps\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\circle.yml">
+      <PackagePath>www\lib\angular-google-maps\circle.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\.travis.yml">
+      <PackagePath>www\lib\angular-local-storage\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\.travis.yml">
+      <PackagePath>www\lib\angular-simple-logger\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\.travis.yml">
+      <PackagePath>www\lib\lodash\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\all.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\all.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\legend.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\legend.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\modules.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\modules.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.managers.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.managers.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.models.child.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.models.child.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.models.parent.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.models.parent.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.options.builders.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.options.builders.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.options.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.options.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.utils.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.directives.api.utils.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.extensions.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.extensions.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.providers.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.providers.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.wrapped.dot">
+      <PackagePath>www\lib\angular-google-maps\dist\architecture\dot\modules\uiGmapgoogle-maps.wrapped.dot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\Gruntfile.coffee">
+      <PackagePath>www\lib\angular-google-maps\Gruntfile.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\spec\coffee\bootstrap.coffee">
+      <PackagePath>www\lib\angular-google-maps\spec\coffee\bootstrap.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\spec\coffee\helpers\google-api-mock.coffee">
+      <PackagePath>www\lib\angular-google-maps\spec\coffee\helpers\google-api-mock.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\spec\coffee\helpers\google-map-spec-controller.coffee">
+      <PackagePath>www\lib\angular-google-maps\spec\coffee\helpers\google-map-spec-controller.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\spec\coffee\helpers\helper.mockEvents.spec.coffee">
+      <PackagePath>www\lib\angular-google-maps\spec\coffee\helpers\helper.mockEvents.spec.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\spec\coffee\helpers\helper.polyline.spec.coffee">
+      <PackagePath>www\lib\angular-google-maps\spec\coffee\helpers\helper.polyline.spec.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\spec\coffee\helpers\initiator.coffee">
+      <PackagePath>www\lib\angular-google-maps\spec\coffee\helpers\initiator.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\gulpfile.coffee">
+      <PackagePath>www\lib\angular-simple-logger\gulpfile.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\gulp\index.coffee">
+      <PackagePath>www\lib\angular-simple-logger\gulp\index.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\gulp\tasks\build.coffee">
+      <PackagePath>www\lib\angular-simple-logger\gulp\tasks\build.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\gulp\tasks\clean.coffee">
+      <PackagePath>www\lib\angular-simple-logger\gulp\tasks\clean.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\gulp\tasks\index.coffee">
+      <PackagePath>www\lib\angular-simple-logger\gulp\tasks\index.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\gulp\tasks\spec.coffee">
+      <PackagePath>www\lib\angular-simple-logger\gulp\tasks\spec.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\karma.conf.coffee">
+      <PackagePath>www\lib\angular-simple-logger\karma.conf.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\spec\logger.spec.coffee">
+      <PackagePath>www\lib\angular-simple-logger\spec\logger.spec.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\src\logger.coffee">
+      <PackagePath>www\lib\angular-simple-logger\src\logger.coffee</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-google-maps\spec\js\.keep">
+      <PackagePath>www\lib\angular-google-maps\spec\js\.keep</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\.bowerrc">
+      <PackagePath>www\lib\angular-local-storage\.bowerrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\.bowerrc">
+      <PackagePath>www\lib\angular-simple-logger\.bowerrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\.editorconfig">
+      <PackagePath>www\lib\angular-local-storage\.editorconfig</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\.editorconfig">
+      <PackagePath>www\lib\lodash\.editorconfig</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngstorage\.editorconfig">
+      <PackagePath>www\lib\ngstorage\.editorconfig</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\.gitattributes">
+      <PackagePath>www\lib\angular-local-storage\.gitattributes</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\.gitattributes">
+      <PackagePath>www\lib\lodash\.gitattributes</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngstorage\.gitattributes">
+      <PackagePath>www\lib\ngstorage\.gitattributes</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\.gitignore">
+      <PackagePath>www\lib\angular-local-storage\.gitignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\.gitignore">
+      <PackagePath>www\lib\angular-simple-logger\.gitignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\.gitignore">
+      <PackagePath>www\lib\font-awesome\.gitignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\.gitignore">
+      <PackagePath>www\lib\lodash\.gitignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-local-storage\LICENSE">
+      <PackagePath>www\lib\angular-local-storage\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\scripts\clean">
+      <PackagePath>www\lib\angular-simple-logger\scripts\clean</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-simple-logger\scripts\publish">
+      <PackagePath>www\lib\angular-simple-logger\scripts\publish</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\LICENSE">
+      <PackagePath>www\lib\angular-ui-router\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\LICENSE">
+      <PackagePath>www\lib\AngularJS-Toaster\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\Leaflet.awesome-markers\LICENSE">
+      <PackagePath>www\lib\Leaflet.awesome-markers\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\LICENSE">
+      <PackagePath>www\lib\lodash\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\backbone\LICENSE">
+      <PackagePath>www\lib\lodash\vendor\backbone\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\underscore\LICENSE">
+      <PackagePath>www\lib\lodash\vendor\underscore\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\moment-duration-format\LICENSE">
+      <PackagePath>www\lib\moment-duration-format\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ng-cordova-oauth\LICENSE">
+      <PackagePath>www\lib\ng-cordova-oauth\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngCordova\LICENSE">
+      <PackagePath>www\lib\ngCordova\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngstorage\LICENSE">
+      <PackagePath>www\lib\ngstorage\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\platform\LICENSE">
+      <PackagePath>www\lib\platform\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\underscore\LICENSE">
+      <PackagePath>www\lib\underscore\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\LICENSE">
+      <PackagePath>www\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular-ui-router\api\angular-ui-router.d.ts">
+      <PackagePath>www\lib\angular-ui-router\api\angular-ui-router.d.ts</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\AngularJS-Toaster\toaster.scss">
+      <PackagePath>www\lib\AngularJS-Toaster\toaster.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\font-awesome.scss">
+      <PackagePath>www\lib\font-awesome\scss\font-awesome.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\_animated.scss">
+      <PackagePath>www\lib\font-awesome\scss\_animated.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\_bordered-pulled.scss">
+      <PackagePath>www\lib\font-awesome\scss\_bordered-pulled.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\_core.scss">
+      <PackagePath>www\lib\font-awesome\scss\_core.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\_fixed-width.scss">
+      <PackagePath>www\lib\font-awesome\scss\_fixed-width.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\_icons.scss">
+      <PackagePath>www\lib\font-awesome\scss\_icons.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\_larger.scss">
+      <PackagePath>www\lib\font-awesome\scss\_larger.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\_list.scss">
+      <PackagePath>www\lib\font-awesome\scss\_list.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\_mixins.scss">
+      <PackagePath>www\lib\font-awesome\scss\_mixins.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\_path.scss">
+      <PackagePath>www\lib\font-awesome\scss\_path.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\_rotated-flipped.scss">
+      <PackagePath>www\lib\font-awesome\scss\_rotated-flipped.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\_stacked.scss">
+      <PackagePath>www\lib\font-awesome\scss\_stacked.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\scss\_variables.scss">
+      <PackagePath>www\lib\font-awesome\scss\_variables.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\ionic.scss">
+      <PackagePath>www\lib\ionic\scss\ionic.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\ionicons\ionicons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\ionicons.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-font.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-font.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-icons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-icons.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-variables.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-variables.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_action-sheet.scss">
+      <PackagePath>www\lib\ionic\scss\_action-sheet.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_animations.scss">
+      <PackagePath>www\lib\ionic\scss\_animations.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_backdrop.scss">
+      <PackagePath>www\lib\ionic\scss\_backdrop.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_badge.scss">
+      <PackagePath>www\lib\ionic\scss\_badge.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_bar.scss">
+      <PackagePath>www\lib\ionic\scss\_bar.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_button-bar.scss">
+      <PackagePath>www\lib\ionic\scss\_button-bar.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_button.scss">
+      <PackagePath>www\lib\ionic\scss\_button.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_checkbox.scss">
+      <PackagePath>www\lib\ionic\scss\_checkbox.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_form.scss">
+      <PackagePath>www\lib\ionic\scss\_form.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_grid.scss">
+      <PackagePath>www\lib\ionic\scss\_grid.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_items.scss">
+      <PackagePath>www\lib\ionic\scss\_items.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_list.scss">
+      <PackagePath>www\lib\ionic\scss\_list.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_loading.scss">
+      <PackagePath>www\lib\ionic\scss\_loading.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_menu.scss">
+      <PackagePath>www\lib\ionic\scss\_menu.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_mixins.scss">
+      <PackagePath>www\lib\ionic\scss\_mixins.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_modal.scss">
+      <PackagePath>www\lib\ionic\scss\_modal.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_platform.scss">
+      <PackagePath>www\lib\ionic\scss\_platform.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_popover.scss">
+      <PackagePath>www\lib\ionic\scss\_popover.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_popup.scss">
+      <PackagePath>www\lib\ionic\scss\_popup.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_progress.scss">
+      <PackagePath>www\lib\ionic\scss\_progress.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_radio.scss">
+      <PackagePath>www\lib\ionic\scss\_radio.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_range.scss">
+      <PackagePath>www\lib\ionic\scss\_range.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_refresher.scss">
+      <PackagePath>www\lib\ionic\scss\_refresher.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_reset.scss">
+      <PackagePath>www\lib\ionic\scss\_reset.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_scaffolding.scss">
+      <PackagePath>www\lib\ionic\scss\_scaffolding.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_select.scss">
+      <PackagePath>www\lib\ionic\scss\_select.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_slide-box.scss">
+      <PackagePath>www\lib\ionic\scss\_slide-box.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_slides.scss">
+      <PackagePath>www\lib\ionic\scss\_slides.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_spinner.scss">
+      <PackagePath>www\lib\ionic\scss\_spinner.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_tabs.scss">
+      <PackagePath>www\lib\ionic\scss\_tabs.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_toggle.scss">
+      <PackagePath>www\lib\ionic\scss\_toggle.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_transitions.scss">
+      <PackagePath>www\lib\ionic\scss\_transitions.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_type.scss">
+      <PackagePath>www\lib\ionic\scss\_type.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_util.scss">
+      <PackagePath>www\lib\ionic\scss\_util.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ionic\scss\_variables.scss">
+      <PackagePath>www\lib\ionic\scss\_variables.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\angular\angular.min.js.gzip">
+      <PackagePath>www\lib\angular\angular.min.js.gzip</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\.npmignore">
+      <PackagePath>www\lib\font-awesome\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\ngstorage\.npmignore">
+      <PackagePath>www\lib\ngstorage\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\fonts\fontawesome-webfont.woff2">
+      <PackagePath>www\lib\font-awesome\fonts\fontawesome-webfont.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\HELP-US-OUT.txt">
+      <PackagePath>www\lib\font-awesome\HELP-US-OUT.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\license.txt">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\license.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\animated.less">
+      <PackagePath>www\lib\font-awesome\less\animated.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\bordered-pulled.less">
+      <PackagePath>www\lib\font-awesome\less\bordered-pulled.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\core.less">
+      <PackagePath>www\lib\font-awesome\less\core.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\fixed-width.less">
+      <PackagePath>www\lib\font-awesome\less\fixed-width.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\font-awesome.less">
+      <PackagePath>www\lib\font-awesome\less\font-awesome.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\icons.less">
+      <PackagePath>www\lib\font-awesome\less\icons.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\larger.less">
+      <PackagePath>www\lib\font-awesome\less\larger.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\list.less">
+      <PackagePath>www\lib\font-awesome\less\list.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\mixins.less">
+      <PackagePath>www\lib\font-awesome\less\mixins.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\path.less">
+      <PackagePath>www\lib\font-awesome\less\path.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\rotated-flipped.less">
+      <PackagePath>www\lib\font-awesome\less\rotated-flipped.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\stacked.less">
+      <PackagePath>www\lib\font-awesome\less\stacked.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\font-awesome\less\variables.less">
+      <PackagePath>www\lib\font-awesome\less\variables.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\.jscsrc">
+      <PackagePath>www\lib\lodash\.jscsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\fp\template\doc\wiki.jst">
+      <PackagePath>www\lib\lodash\lib\fp\template\doc\wiki.jst</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\fp\template\modules\alias.jst">
+      <PackagePath>www\lib\lodash\lib\fp\template\modules\alias.jst</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\fp\template\modules\category.jst">
+      <PackagePath>www\lib\lodash\lib\fp\template\modules\category.jst</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\fp\template\modules\convert.jst">
+      <PackagePath>www\lib\lodash\lib\fp\template\modules\convert.jst</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\fp\template\modules\fp.jst">
+      <PackagePath>www\lib\lodash\lib\fp\template\modules\fp.jst</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\fp\template\modules\module.jst">
+      <PackagePath>www\lib\lodash\lib\fp\template\modules\module.jst</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\fp\template\modules\thru.jst">
+      <PackagePath>www\lib\lodash\lib\fp\template\modules\thru.jst</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\lib\fp\template\modules\_util.jst">
+      <PackagePath>www\lib\lodash\lib\fp\template\modules\_util.jst</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\blank.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\blank.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\disable.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\disable.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\disableHover.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\disableHover.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\errorIcon.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\errorIcon.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\group.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\group.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\infoIcon.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\infoIcon.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\loading_16.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\loading_16.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\pixel_transparent.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\pixel_transparent.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\search.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\search.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\shadow.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\shadow.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\shadow2.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\shadow2.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\textEditorBorders.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\textEditorBorders.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\textEditorCorners.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\textEditorCorners.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tree_close.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tree_close.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\tree_open.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\tree_open.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\www\lib\lodash\vendor\firebug-lite\skin\xp\warningIcon.gif">
+      <PackagePath>www\lib\lodash\vendor\firebug-lite\skin\xp\warningIcon.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codigo\Mobile\App_walk2view_007\App_Walk2view\platforms\windows\build\phone\debug\x86\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\">
+      <Name>Microsoft.Phone.WinJS.2.1</Name>
+      <Version>1.0.9651.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Phone.WinJS.2.1, MinVersion=1.0.9651.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\Microsoft.Phone.WinJS.2.1.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

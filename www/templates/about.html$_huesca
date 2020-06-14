@@ -1,0 +1,34 @@
+<ion-view title="Home" class="register-view">
+<ion-nav-bar class="bar-dark">
+<ion-nav-buttons side="left">
+<button class="button button-icon button-clear ion-ios-arrow-back" ng-click="myGoBack()"></button>
+</ion-nav-buttons>
+</ion-nav-bar>
+
+<ion-content class="gem-splash_background">
+<div class="gem-form text-center" style="margin-top:20px">
+<!-- Logo as you please -->
+<div class="gem-splash-logo" style="margin-top:20px">
+<img src="img/logo1.png" alt="Logo" style="max-width:40%">
+<br /><br />
+<h4 class="gem-white">HUESCA LA MAGIA 360</h4>
+<br />
+<br />
+<h5 class="gem-white">Powered by Walk2view</h5>
+<div class="row profile-stats">
+<div class="col stat">
+<h4 class="gem-white uppercase">{{"programming_txt" | translate}}</h4>
+<h5 class="gem-white"><a class="item" href="#" onclick="window.open('https://es.linkedin.com/in/janavgar', '_system', 'location=yes'); return false;">José A. Navarro</a></h5>
+</div>
+<div class="col stat">
+<h4 class="gem-white uppercase">{{"design_txt" | translate}}</h4>
+<h5 class="gem-white"><a class="item" href="#" onclick="window.open('http://www.panoramashuesca.com', '_system', 'location=yes'); return false;">José A. Sánchez</a></h5>
+</div>
+</div>
+<div class="col stat">
+<h5 class="gem-white"><a class="item" href="#" onclick="window.open('http://www.huescalamagia.es/aviso-legal', '_system', 'location=yes'); return false;">{{'priv_agreement_2_txt' | translate}}</a></h5>
+</div>
+</div>
+</div>
+</ion-content>
+</ion-view>

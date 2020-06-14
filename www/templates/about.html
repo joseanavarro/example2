@@ -1,0 +1,40 @@
+<ion-view title="Home" class="register-view">
+    <ion-nav-bar class="bar-dark">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="myGoBack()"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+
+    <ion-content class="gem-splash_background">
+        <div class="gem-form text-center" style="margin-top:20px">
+            <!-- Logo as you please -->
+            <div class="gem-splash-logo" style="margin-top:20px">
+                <img src="img/logo1.png" alt="Logo" style="max-width:60%">
+                <br /><br />
+                <h4 class="gem-white">Walk, to view the world around you</h4>
+                <br />
+                <h4 class="gem-white">Caminar, para ver el mundo que te rodea</h4>
+                <br />
+                <div class="row profile-stats">
+                    <div class="col stat">
+                        <h4 class="gem-white uppercase">{{"programming_txt" | translate}}</h4>
+                        <h5 class="gem-white"><a class="item" href="#" onclick="window.open('https://es.linkedin.com/in/janavgar', '_system', 'location=yes'); return false;">José A. Navarro</a></h5>
+                    </div>
+                    <div class="col stat">
+                        <h4 class="gem-white uppercase">{{"design_txt" | translate}}</h4>
+                        <h5 class="gem-white"><a class="item" href="#" onclick="window.open('https://www.linkedin.com/in/antoniodiazmarron', '_system', 'location=yes'); return false;">Antonio Díaz</a></h5>
+                    </div>
+                </div>
+                <br /><br />
+                <a onclick="window.open('http://www.vtep360.com','_system', 'location=yes'); return false;">
+                    <img src="img/logo2.png" alt="Logo" style="max-width:30%" border="0">
+                </a>
+                <h5 class="gem-white">Powered by VTEP360</h5>
+                <div class="col stat">
+                    <h5 class="gem-white"><a class="item" href="#" onclick="window.open('https://www.walk2view.com/terms/', '_system', 'location=yes'); return false;">{{'priv_agreement_2_txt' | translate}}</a></h5>
+                    <h5 class="gem-white"><a class="item" href="#" onclick="window.open('https://www.walk2view.com/privacy-policy/', '_system', 'location=yes'); return false;">{{'priv_agreement_4_txt' | translate}}</a></h5>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

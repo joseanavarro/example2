@@ -1,0 +1,43 @@
+<!-- Title for the ion view -->
+<ion-view>
+  <!-- ======================
+  LEFT SIDE BUTTON
+  ====================== -->
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon" ng-click="openMenu()"></button>
+  </ion-nav-buttons>
+  <!-- ======================
+  /END LEFT SIDE BUTTON
+  ====================== -->
+  <ion-nav-title>
+      <span>{{"routes_txt" | translate}}</span>
+  </ion-nav-title>
+
+  <!-- ======================
+  MAIN CONTENT SECTION
+  ====================== -->
+  <ion-content class="has-header gem-ion-content feed">
+      <ion-list>
+        <div class="w2w-tl-item" ng-repeat="item in recRoutes" ui-sref="app.route({routeId: item.id})">
+        	<div class="w2w-tl-thumb" ui-sref="visit({visitId: item.id, kind: item.kind})"  ng-style="{'background-image':'url({{ item.thumbnail }})'}">
+  				 <div class="w2w-pl-title">{{ item.title }}</div>
+  			</div>
+        	
+        	 <div class="w2w-tl-item-description" ui-sref="visit({visitId: item.id})">
+                {{ item.description | limitTo: 95 }}{{item.description.length > 95 ? '...' : ''}}
+                <div class="w2w-tl-item-arrow" ></div>
+          </div>
+        </div>
+      </ion-list>
+
+      <ion-infinite-scroll
+              ng-if="isMoreData()"
+              on-infinite="loadMoreData()"
+              distance="1%">
+      </ion-infinite-scroll>
+
+  </ion-content>
+  <!-- ======================
+  END MAIN CONTENT SECTION
+  ====================== -->
+</ion-view>

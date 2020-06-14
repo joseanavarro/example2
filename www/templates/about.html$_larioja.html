@@ -1,0 +1,39 @@
+<ion-view title="Home" class="register-view">
+  <ion-nav-bar class="bar-dark">
+	 <ion-nav-buttons side="left">
+          <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="myGoBack()"></button>
+        </ion-nav-buttons>
+	</ion-nav-bar>
+
+  <ion-content class="gem-splash_background">
+    <div class="gem-form text-center" style="margin-top:20px">
+      <!-- Logo as you please -->
+      <div class="gem-splash-logo" style="margin-top:20px">
+        <img src="img/logo1.png" alt="Logo" style="max-width:60%">
+        <br /><br />
+        <h3 class="gem-white">{{"app_title_txt" | translate}}</h3>
+        <br />
+        <h4 class="gem-white">LA RIOJA TURISMO</h4>
+        <br />
+        <br />
+        <a  onclick="window.open('http://www.walk2view.com','_system', 'location=yes'); return false;">
+          <img src="img/logo1.png" alt="Logo" style="max-width:30%" border="0">
+        </a>
+        <h5 class="gem-white">Powered by Walk2view</h5>
+        <div class="row profile-stats">
+          <div class="col stat">
+            <h4 class="gem-white uppercase">{{"programming_txt" | translate}}</h4>
+            <h5 class="gem-white"><a class="item" href="#" onclick="window.open('https://es.linkedin.com/in/janavgar', '_system', 'location=yes'); return false;">José A. Navarro</a></h5>
+          </div>
+          <div class="col stat">
+            <h4 class="gem-white uppercase">{{"design_txt" | translate}}</h4>
+            <h5 class="gem-white"><a class="item" href="#" onclick="window.open('https://es.linkedin.com/in/ignacio-borrego-polanco-33583843/en', '_system', 'location=yes'); return false;">Ignacio Borrego</a></h5>
+          </div>
+        </div>
+        <div class="col stat">
+            <h5 class="gem-white"><a class="item" href="#" onclick="window.open('http://lariojaturismo.com/comunidad/larioja/aviso-legal', '_system', 'location=yes'); return false;">{{'priv_agreement_2_txt' | translate}}</a></h5>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

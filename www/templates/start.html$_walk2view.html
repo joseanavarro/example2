@@ -1,0 +1,66 @@
+<ion-view class="walkthrough-view">
+  <ion-content scroll="true">
+    <div class="col col-center walkthrough-logo">
+        <p align="center"><img src="img/logo1.png"  style="max-width: 60%;max-height: 10vh;"></p>
+    </div>
+    <ion-slide-box class="slider-view" auto-play="true" does-continue="true"  slide-interval="3000">
+
+      <ion-slide >
+        <div class="col col-center light bold" style="margin-top: 100px;">
+            <p align="center">{{"intro_title_txt" | translate}}</p>
+        </div>
+        <div class="col col-center light">
+            <p align="center">{{"intro_text_txt" | translate}}</p>
+        </div>
+      </ion-slide>
+
+      <ion-slide >
+        <p align="center"><img src="img/1.png" class="slide-image"></p>
+        <div class="col col-center light">
+            <p align="center">{{"help1_txt" | translate}}</p>
+        </div>
+      </ion-slide>
+
+      <ion-slide >
+        <p align="center"><img src="img/2.png" class="slide-image"></p>
+        <div class="col col-center light">
+            <p align="center">{{"help2_txt" | translate}}</p>
+        </div>
+      </ion-slide>
+
+      <ion-slide >
+        <p align="center"><img src="img/3.png" class="slide-image"></p>
+        <div class="col col-center light">
+            <p align="center">{{"help3_txt" | translate}}</p>
+        </div>
+      </ion-slide>
+
+      <ion-slide >
+        <p align="center"><img src="img/4.png" class="slide-image"></p>
+        <div class="col col-center light">
+            <p align="center">{{"help4_txt" | translate}}</p>
+        </div>
+      </ion-slide>
+
+    </ion-slide-box>
+
+  </ion-content>
+  <div class="bar bar-subfooter bar-dark" ng-click="login()">
+        <p>{{"log_in_txt" | translate}}</p>
+  </div>
+  <div class="bar bar-footer bar-light" >
+  	<div class="dark bold" ng-click="anonLogin()" style="
+    padding-top: 10px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    border-right: 2px solid;
+"> {{'explore_txt' | translate}}</div>
+<div class="dark bold ng-binding"  ng-click="register()" style="
+    padding-top: 10px;
+    width: 50%;
+    float: left;
+    text-align: center;
+">{{'register_txt' | translate}}</div>
+  </div>
+</ion-view>

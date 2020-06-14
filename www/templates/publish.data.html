@@ -1,0 +1,21 @@
+
+ <style>
+
+  </style>
+    <div id="publishPanoPreview">
+      <img src="{{tourData.selectedPano}}" style="max-width:100%;" />
+    </div>
+			<div class="list">
+			  <label class="item item-input item-stacked-label">
+			    <span class="input-label">{{'title_txt' | translate}}</span>
+			    <input type="text" ng-model="tourData.title" placeholder="{{'write_description_txt' | translate}}">
+			  </label>
+			  <label class="item item-input item-stacked-label">
+			    <span class="input-label">{{'location_txt' | translate}}</span>
+			    <button class="button button-full button-positive location-button"  ng-click="goMap()" />{{tourData.location}}</button>
+			  </label>
+			  <label class="item item-input item-stacked-label">
+			    <span class="input-label">{{'desc_txt' | translate}}</span>
+			    <textarea ng-model="tourData.description" placeholder="{{'write_description_txt' | translate}}"></textarea>
+			  </label>
+			</div>

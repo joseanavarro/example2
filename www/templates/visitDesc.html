@@ -1,0 +1,152 @@
+  <!-- Title for header bar (refer to www/index.html) the bar is hidden-->
+  <ion-view hide-nav-bar="false" view-title="{{'details_txt' | translate}}" cache-view="false" id="visitView">
+    <ion-nav-bar class="bar-dark">
+        <ion-nav-buttons side="left">
+          <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="myGoBack()"></button>
+        </ion-nav-buttons>
+        <ion-nav-buttons side="right">
+            <!-- Putting a return between the buttons causes them to be stacked on Android 4.4.2 -->
+            <button class="button button-icon icon ion-alert-circled" ng-click="openPopover2($event)"></button>  <button class="button button-icon icon ion-android-share-alt" ng-click="openPopover($event)"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <!-- ======================
+    GEMIONIC CONTENT
+    ====================== -->
+    <ion-content class="gem-ion-content single-post" delegate-handle="visitScroll">
+        <!-- post image -->
+       <div id="PanoWrapper" class="w2w-td-thumb normalPano" ng-style="{'background-image':'url(' + visitData.thumbnail + ')'}">
+       		<!-- Post title -->
+       		<div id="PanoContainer"  style="height:100%;width:100%"></div>
+  		 </div>
+      </div>
+      <!-- Article Actions -->
+
+      	<div class="w2w-tl-item-options">
+					<i class="w2w-tl-item-likes-icon" ng-class="visitData.liked? 'liked':''" ng-click="visitData.like()"></i> <span class="w2w-tl-item-stat">{{ visitData.likes }}</span>
+					<i class="w2w-tl-item-comments-icon" ng-click="goComment()"></i> <span class="w2w-tl-item-stat">{{ visitData.com }}</span>
+					<i class="w2w-tl-item-views-icon"></i> <span class="w2w-tl-item-stat">{{ visitData.vis }}</span>
+					 <a class="feed-category" ng-click="enterVR()"><img src="img/cardboard.svg" alt="" height="22px"></a>
+
+					<i class="w2w-tl-item-options-icon" ng-if="visitData.can_edit" ng-click="visitData.options()"></i>
+				</div>
+
+       <div class="w2w-tl-item-header">
+       	<a ng-href="#/app/profile/{{visitData.userId}}" >
+    			<img class="w2w-tl-avatar"  ng-style="{'background-image':'url('+ profileImgURL + ')'}" />
+					<div class="w2w-tl-author">
+						{{ visitData.owner }}&nbsp;
+					</div>
+				</a>
+					<div class="w2w-tl-location">
+            <!--a ng-href="#/map3/{{visitData.lat}}/{{visitData.lon}}" -->
+  						<div class="w2w-tl-item-icon-location"></div>
+  					  <i class="icon ion-ios-location"></i> {{ visitData.city }}, {{ visitData.country }}
+            <!--/a-->
+					</div>
+					<div class="w2w-tl-time">{{ visitData.creation | timeSinceNow}} </div>
+    		</div>
+      </div>
+      <div class="show-more" ng-class="showmoreclass" ng-click="showMore()">
+        <div class="show-more-content">{{visitData.description}}</div>
+      	<div class="show-more-text">{{'view_more_txt' | translate}}...</div>
+      </div>
+
+      <div ng-if="morePanos > 1">
+        <h4>{{'more_views_txt' | translate}}</h4>
+      </div>
+      <div ng-repeat="item in tour_areas">
+        <b>{{item.areaTitle}}</b>
+
+        <ion-list>
+          <div class="w2w-tl-container">
+          	<div ng-repeat="item2 in item.Panos">
+             <div class="w2w-tl-item" ng-show="item2.id_pano != visitData.id_pano">
+               <div >
+                 <ng-include src="'visitSecList.html'">
+                 </ng-include>
+               </div>
+              	</div>
+            </div>
+            <div style="clear:both;"></div>
+          </div>
+        </ion-list>
+
+      </div>
+
+        <div class="w2w-comments">
+        	<div class="w2w-comments-title">{{'comments_txt' | translate}}</div>
+
+        	<div class="w2w-comment" ng-if="isLogged">
+            <div class="w2w-comment-warn">
+              <a href="#" ng-click="reportInadequate2(comment.id, 3)">
+                <i class="icon ion-alert"></i>
+              </a>
+            </div>
+            <div class="w2w-comment-avatar"  ng-style="{'background-image':'url('+ foto +')'}" ></div>
+        		<textarea id="vistComment" ng-blur="hideStatusBar()" msd-elastic placeholder="{{'write_comment_txt' | translate}}" ng-model="visitData.commentText"></textarea>
+        		<div class="w2w-comment-send" ng-click="addComment()"></div>
+        	</div>
+
+        	<div class="w2w-comment" ng-repeat="comment in comments" on-hold="commentPopup(comment)">
+            <div class="w2w-comment-warn">
+              <a href="#" ng-click="reportInadequate2(comment.id, 3)">
+                <i class="icon ion-alert"></i>
+              </a>
+            </div>
+        		<div class="w2w-comment-avatar"  ng-style="{'background-image':'url({{ comment.avatar }})'}" ></div>
+        		<div class="w2w-comment-name">{{comment.name}}</div>
+            <div class="w2w-comment-date">{{comment.date | timeSinceNow}}</div>
+        		<div class="w2w-comment-text">{{comment.text}}</div>
+        	</div>
+        </div>
+
+    </ion-content>
+  </ion-view>
+
+  <script id="templates/popover.html" type="text/ng-template">
+    <ion-popover-view style="height:270px; width: 220px;">
+      <ion-content>
+        <div class="list">
+          <a class="item" href="#">
+             {{'share_in_txt' | translate}} ...
+          </a>
+          <a class="item item-icon-left" href="#" ng-click="ShareFacebook()">
+            <i class="icon ion-social-facebook"></i>
+             Facebook
+          </a>
+          <a class="item item-icon-left" href="#" ng-click="ShareTwitter()">
+            <i class="icon ion-social-twitter"></i>
+             Twitter
+          </a>
+          <a ng-if="isAndroid" class="item item-icon-left" href="#" ng-click="ShareGplus()">
+            <i class="icon ion-social-googleplus"></i>
+             Google+
+          </a>
+          <a class="item item-icon-left" href="#" ng-click="ShareOther()">
+            <i class="icon ion-android-share-alt"></i>
+             {{'other_txt' | translate}}
+          </a>
+        </div>
+      </ion-content>
+    </ion-popover-view>
+  </script>
+
+  <script id="templates/popover2.html" type="text/ng-template">
+    <ion-popover-view style="height:180px; width: 220px;">
+      <ion-content>
+        <div class="list">
+          <a class="item" href="#">
+             {{'report_content_txt' | translate}} ...
+          </a>
+          <a class="item item-icon-left" href="#" ng-click="reportInadequate(visitData.id_pano, 1)">
+            <i class="icon ion-alert"></i>
+             {{'inadequate_content_txt' | translate}}
+          </a>
+          <a class="item item-icon-left" href="#" ng-click="reportWrong(visitData.id_pano, 2)">
+            <i class="icon ion-flag"></i>
+             {{'wrong_data_txt' | translate}}
+          </a>
+        </div>
+      </ion-content>
+    </ion-popover-view>
+  </script>

@@ -1,0 +1,29 @@
+  		<div class="w2w-tl-item-header">
+  			<a ng-href="#/app/profile/{{item.userId}}" >
+    			<div class="w2w-tl-avatar"  ng-style="{'background-image':'url(http://app.walk2view.com/profilepic.aspx?u={{ item.userId }})'}" ></div>
+					<div class="w2w-tl-author">
+						{{ item.owner }}&nbsp;
+					</div>
+				</a>
+					<div class="w2w-tl-location">
+						<div class="w2w-tl-item-icon-location" ></div>
+					  <i class="icon ion-ios-location"></i> {{ item.city }}, {{ item.country }}
+					</div>
+					<div class="w2w-tl-time">{{ item.creation | timeSinceNow}} </div>
+    		</div>
+
+  			<div class="w2w-tl-thumb" ui-sref="visit({visitId: item.id, kind: item.kind})"  ng-style="{'background-image':'url({{ item.thumbnail }})'}">
+  				 <div class="w2w-pl-title">{{ item.title }}</div>
+  			</div>
+				<div class="w2w-tl-item-options">
+					<i class="w2w-tl-item-likes-icon" ng-class="item.liked? 'liked':''" ng-click="item.like()"></i> <span class="w2w-tl-item-stat">{{ item.likes }}</span>
+					<i class="w2w-tl-item-comments-icon" ng-click="item.comment()"></i> <span class="w2w-tl-item-stat">{{ item.com }}</span>
+					<i class="w2w-tl-item-views-icon" ui-sref="visit({visitId: item.id})"></i> <span class="w2w-tl-item-stat">{{ item.vis }}</span>
+					<i ng-if="item.can_edit" class="w2w-tl-item-options-icon" ng-click="item.options()"></i>
+				</div>
+				 <div class="w2w-tl-item-description" ui-sref="visit({visitId: item.id})">
+                {{ item.description | limitTo: 95 }}{{item.description.length > 95 ? '...' : ''}}
+                <div class="w2w-tl-item-arrow" ></div>
+          </div>
+
+    	</div>

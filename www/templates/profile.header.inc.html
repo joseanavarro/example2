@@ -1,0 +1,8 @@
+<div class="profile-header" ng-style="{'background-image':'url(' + userProfile.background +')'}" >
+			<div class="follow-button" ng-if="!userProfile.is_followed && ! userProfile.is_self" ng-click="follow()">+ Follow</div>
+			<div class="unfollow-button" ng-if="userProfile.is_followed && ! userProfile.is_self" ng-click="follow()"><span class="following">Following</span><span class="unfollow">Unfollow</span></div>
+			
+			<div class="profile-avatar" ng-style="{'background-image':'url(' +  userProfile.avatar  +')'}"></div>
+			<div class="profile-name">{{ userProfile.name }} {{ userProfile.surname }}</div>
+			<div class="profile-follower-stats">{{ userProfile.followers }} {{"followers_txt" | translate}} - {{ userProfile.following }} {{"following_txt" | translate}}</div>
+		</div>

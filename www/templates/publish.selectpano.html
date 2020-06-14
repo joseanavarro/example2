@@ -1,0 +1,47 @@
+<ion-content class="has-footer has-subfooter" scroll="true">
+    <div ng-if="isAndroid">
+        <div class="compass-container">
+            <div class="compass-arrow" id="compass-arrow"></div>
+        </div>
+        <div class="compass-desc">
+            <p>{{'compass_description_txt' | translate}}</p>
+        </div>
+        <div ng-if="isAndroid" class="publish_instructions">
+            <p>{{'publish_instructions_1_txt' | translate}}</p>
+        </div>
+    </div>
+
+    <ion-slide-box ng-if="isAndroid" does-continue="true" auto-play="true" slide-interval="3000" show-pager="false" class="slider-view">
+
+
+        <ion-slide>
+            <p align="center"><img ng-src="{{'img/instructions-slider-1-' + globVar.lang + '.png'}}" class="slide-image"></p>
+        </ion-slide>
+        <ion-slide>
+            <p align="center"><img ng-src="{{'img/instructions-slider-2-' + globVar.lang + '.png'}}" class="slide-image"></p>
+        </ion-slide>
+        <ion-slide>
+            <p align="center"><img ng-src="{{'img/instructions-slider-3-' + globVar.lang + '.png'}}" class="slide-image"></p>
+        </ion-slide>
+
+    </ion-slide-box>
+
+    <div ng-if="!isAndroid">
+        <div class="compass-desc" style="padding-top:40px;padding-bottom:40px;">
+            <p>{{'ios_publish_txt' | translate}}
+                <strong>"{{'select_pano_txt' | translate}}"</strong>.</p>
+        </div>
+        <br />
+        <div style="text-align:center;">
+            <img src="img/publish-ios.png" style="max-width:95%;max-height:70vh;" />
+        </div>
+    </div>
+
+</ion-content>
+
+<div class="bar bar-subfooter bar-dark" ng-click="open360Camera()" ng-if="!isAndroid">
+    <div class="title">{{"open_camera_txt" | translate}}</div>
+</div>
+<div class="bar bar-footer bar-dark" ng-click="selectPano()">
+    <div class="title">{{"select_pano_txt" | translate}}</div>
+</div>

@@ -1,0 +1,199 @@
+{
+    "name": "app_walk2view",
+    "version": "1.1.1",
+    "description": "App_Walk2view",
+    "dependencies": {
+        "com-badrit-base64": "https://github.com/hazemhagrass/phonegap-base64",
+        "com.guinatal.refreshgallery": "https://github.com/lotterfriends/refreshgallery",
+        "com.lampa.startapp": "~0.1.4",
+        "com.phonegap.plugins.OrientationLock": "https://github.com/cogitor/PhoneGap-OrientationLock.git",
+        "com.pylonproducts.wifiwizard": "~0.2.11",
+        "cordova-android": "~6.1.0",
+        "cordova-ios": "^4.4.0",
+        "cordova-plugin-android-permissions": "^0.10.0",
+        "cordova-plugin-app-event": "~1.2.0",
+        "cordova-plugin-camera": "^2.4.1",
+        "cordova-plugin-camera-with-exif": "~1.2.2",
+        "cordova-plugin-canvas2image": "git+https://github.com/devgeeks/Canvas2ImagePlugin.git",
+        "cordova-plugin-compat": "~1.1.0",
+        "cordova-plugin-console": "~1.0.5",
+        "cordova-plugin-crosswalk-webview": "~2.2.0",
+        "cordova-plugin-customurlscheme": "~4.1.5",
+        "cordova-plugin-device": "~1.1.4",
+        "cordova-plugin-device-orientation": "https://github.com/apache/cordova-plugin-device-orientation",
+        "cordova-plugin-exif": "git+https://github.com/domax/cordova-exif.git",
+        "cordova-plugin-file": "~4.3.1",
+        "cordova-plugin-file-transfer": "~1.6.1",
+        "cordova-plugin-filepath": "~1.0.2",
+        "cordova-plugin-geolocation": "https://github.com/apache/cordova-plugin-geolocation.git",
+        "cordova-plugin-google-analytics": "~1.7.4",
+        "cordova-plugin-image-picker": "https://github.com/mirulumam/cordova-imagePicker",
+        "cordova-plugin-inappbrowser": "~1.6.1",
+        "cordova-plugin-insomnia": "https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git",
+        "cordova-plugin-refresh-gallery": "git+https://github.com/lotterfriends/refreshgallery.git",
+        "cordova-plugin-save-image": "^0.2.5",
+        "cordova-plugin-splashscreen": "~4.0.1",
+        "cordova-plugin-statusbar": "~2.2.1",
+        "cordova-plugin-whitelist": "~1.3.1",
+        "cordova-plugin-x-socialsharing": "~5.1.3",
+        "cordova-plugin-x-toast": "^2.6.0",
+        "cordova-sqlite-storage": "https://github.com/litehelpers/Cordova-sqlite-storage",
+        "de.appplant.cordova.plugin.local-notification": "https://github.com/katzer/cordova-plugin-local-notifications",
+        "gulp": "^3.5.6",
+        "gulp-concat": "^2.2.0",
+        "gulp-minify-css": "^0.3.0",
+        "gulp-rename": "^1.2.0",
+        "gulp-sass": "^2.0.4",
+        "ionic-plugin-keyboard": "~2.2.1",
+        "wifiwizard": "^0.2.11"
+    },
+    "devDependencies": {
+        "@ionic/v1-toolkit": "2.0.4",
+        "async": "^1.5.2",
+        "bower": "^1.3.3",
+        "cordova-uglify": "^0.2.3",
+        "gulp-angular-templatecache": "^1.8.0",
+        "gulp-cssnano": "^2.1.1",
+        "gulp-if": "^2.0.0",
+        "gulp-insert": "^0.5.0",
+        "gulp-jshint": "^2.0.0",
+        "gulp-ng-annotate": "^1.1.0",
+        "gulp-useref": "^3.0.5",
+        "gulp-util": "^2.2.14",
+        "jshint": "^2.9.1",
+        "jshint-stylish": "^2.1.0",
+        "mv": "^2.1.1",
+        "ng-annotate": "^1.2.1",
+        "shelljs": "^0.3.0",
+        "uglify-js": "^2.6.1"
+    },
+    "cordovaPlugins": [
+        {
+            "id": "cordova-plugin-customurlscheme",
+            "locator": "cordova-plugin-customurlscheme",
+            "variables": {
+                "URL_SCHEME": "walk2view"
+            }
+        },
+        "cordova-plugin-device",
+        "cordova-plugin-console",
+        "cordova-plugin-whitelist",
+        "cordova-plugin-splashscreen",
+        "cordova-plugin-statusbar",
+        "ionic-plugin-keyboard",
+        {
+            "locator": "https://github.com/cogitor/PhoneGap-OrientationLock.git",
+            "id": "com.phonegap.plugins.OrientationLock"
+        },
+        {
+            "locator": "https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git",
+            "id": "cordova-plugin-insomnia"
+        },
+        {
+            "locator": "https://github.com/litehelpers/Cordova-sqlite-storage",
+            "id": "cordova-sqlite-storage"
+        },
+        {
+            "locator": "https://github.com/apache/cordova-plugin-device-orientation",
+            "id": "cordova-plugin-device-orientation"
+        },
+        {
+            "locator": "https://github.com/apache/cordova-plugin-geolocation.git",
+            "id": "cordova-plugin-geolocation"
+        },
+        "cordova-plugin-compat",
+        "cordova-plugin-google-analytics",
+        "cordova-plugin-file-transfer",
+        "cordova-plugin-file",
+        "cordova-plugin-x-socialsharing",
+        "es6-promise-plugin",
+        {
+            "locator": "https://github.com/katzer/cordova-plugin-local-notifications",
+            "id": "de.appplant.cordova.plugin.local-notification"
+        },
+        "cordova-plugin-app-event",
+        "cordova-plugin-crosswalk-webview",
+        "com.lampa.startapp",
+        "cordova-plugin-inappbrowser",
+        {
+            "locator": "https://github.com/hazemhagrass/phonegap-base64",
+            "id": "com-badrit-base64"
+        },
+        "cordova-plugin-filepath",
+        {
+            "locator": "https://github.com/mirulumam/cordova-imagePicker",
+            "id": "cordova-plugin-image-picker"
+        },
+        "cordova-plugin-camera-with-exif",
+        "cordova-plugin-android-permissions",
+        "com.guinatal.refreshgallery",
+        "cordova-plugin-exif",
+        "cordova-plugin-camera",
+        "com.pylonproducts.wifiwizard",
+        "cordova-plugin-x-toast",
+        "org.devgeeks.Canvas2ImagePlugin"
+    ],
+    "cordovaPlatforms": [
+        "ios",
+        "android",
+        {
+            "platform": "android",
+            "version": "",
+            "locator": "android"
+        },
+        {
+            "platform": "ios",
+            "version": "",
+            "locator": "ios"
+        },
+        {
+            "platform": "windows",
+            "version": "",
+            "locator": "windows"
+        }
+    ],
+    "cordova": {
+        "platforms": [
+            "android",
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-customurlscheme": {
+                "URL_SCHEME": "walk2view"
+            },
+            "com-badrit-base64": {},
+            "com.lampa.startapp": {},
+            "com.phonegap.plugins.OrientationLock": {},
+            "cordova-plugin-app-event": {},
+            "cordova-plugin-camera-with-exif": {},
+            "cordova-plugin-compat": {},
+            "cordova-plugin-console": {},
+            "cordova-plugin-crosswalk-webview": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-device-orientation": {},
+            "cordova-plugin-file": {},
+            "cordova-plugin-file-transfer": {},
+            "cordova-plugin-filepath": {},
+            "cordova-plugin-geolocation": {},
+            "cordova-plugin-google-analytics": {},
+            "cordova-plugin-image-picker": {},
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-insomnia": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-x-socialsharing": {},
+            "cordova-sqlite-storage": {},
+            "de.appplant.cordova.plugin.local-notification": {},
+            "ionic-plugin-keyboard": {},
+            "cordova-plugin-android-permissions": {},
+            "com.guinatal.refreshgallery": {},
+            "com.pylonproducts.wifiwizard": {},
+            "cordova-plugin-x-toast": {},
+            "cordova-plugin-save-image": {
+                "CAMERA_USAGE_DESCRIPTION": " ",
+                "PHOTOLIBRARY_USAGE_DESCRIPTION": " "
+            }
+        }
+    }
+}

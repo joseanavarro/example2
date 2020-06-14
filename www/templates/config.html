@@ -1,0 +1,24 @@
+<ion-view title="{{'config_txt' | translate}}">
+    <ion-nav-bar class="bar-dark">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="myGoBack()"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+
+    <ion-content class="padding">
+
+        <div class="list">
+            <ion-toggle class="item-text-wrap" ng-checked="{{!cameraWifi}}" ng-click="removeWifi()" toggle-class="toggle-dark">{{'associated_camera_txt' | translate}}: {{cameraWifi}}</ion-toggle>
+
+            <ion-toggle class="item-text-wrap" ng-checked="{{remPhotoAfter}}" ng-model="remPhotoAfter" ng-click="updateRemPhotoAfter()" toggle-class="toggle-dark">{{'remove_photo_after_txt' | translate}}</ion-toggle>
+            <ion-toggle class="item-text-wrap" ng-checked="{{saveLocation}}" ng-model="saveLocation" ng-click="updateSaveLocation()" toggle-class="toggle-dark">{{'save_location_txt' | translate}}</ion-toggle>
+
+            <div class="padding">
+                <button class="button button-block button-dark" ng-click="saveConfig()" ng-hide="pageData.photoDone">
+              {{'save_txt' | translate}}
+            </button>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

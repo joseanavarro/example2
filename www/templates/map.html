@@ -1,0 +1,14 @@
+<ion-view class="map-view" view-title="{{'route_map_txt' | translate}}" cache-view="false">
+  <ion-nav-bar class="bar-dark">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+      <ion-nav-buttons side="right">
+          <!-- Putting a return between the buttons causes them to be stacked on Android 4.4.2 -->
+          <button class="button button-icon icon ion-refresh" ng-click="refresh()"></button>
+      </ion-nav-buttons>
+  </ion-nav-bar>
+  <ion-content data-tap-disabled="true">
+    <leaflet id="generalMap" defaults="map.defaults" center="map.center" markers="map.markers" event-broadcast="map.events" ng-if="map"></leaflet>
+  </ion-content>
+</ion-view>

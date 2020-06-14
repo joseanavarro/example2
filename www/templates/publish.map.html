@@ -1,0 +1,11 @@
+	<form ng-submit="searchAddress()">
+		  <label class="item item-input">
+		    <input type="search" ng-model="map.address" placeholder="{{'search_a_location_txt' | translate }}" /> <button class="button button-icon icon ion-search" style="color:#a31a16;">
+		</button>
+		  </label>
+</form>
+<div class="publish-map">
+<div class="publish-map-marker"></div>	
+<leaflet height="100%" id="publishMap" center="map.center"  markers="map.markers" defaults="map.defaults"></leaflet>
+</div>
+<div class="bar bar-footer bar-balanced"><div class="title" style="" ng-click="goData()">OK</div></div>
